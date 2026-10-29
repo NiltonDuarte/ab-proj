@@ -1,0 +1,12 @@
+{
+  "id": "routes",
+  "category": "movimento",
+  "icon": "pin",
+  "label": "CORRIDA",
+  "title": "Lugares para correr",
+  "description": "Parques, orlas e percursos compartilhados por quem corre na sua cidade.",
+  "detail": "Parques, orlas e pistas indicados por corredoras.",
+  "emptyState": "Ainda não há rotas cadastradas. Sugira um lugar seguro e agradável para correr na sua cidade.",
+  "items": [],
+  "action": "Sugerir um lugar"
+}

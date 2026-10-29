@@ -1,0 +1,12 @@
+{
+  "id": "coupons",
+  "category": "vantagens",
+  "icon": "ticket",
+  "label": "CUPONS",
+  "title": "Vantagens para membros",
+  "description": "Descontos especiais de parceiros em produtos, serviços e experiências.",
+  "detail": "Ofertas confirmadas e disponíveis para membros do clube.",
+  "emptyState": "Nenhum cupom ativo no momento. As ofertas entram aqui quando forem confirmadas com os parceiros.",
+  "items": [],
+  "action": "Ver cupons disponíveis"
+}

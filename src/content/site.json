@@ -1,0 +1,120 @@
+{
+  "brand": "Corre, Mana",
+  "shortBrand": "corre, mana",
+  "instagram": "@corremana",
+  "hero": {
+    "eyebrow": "SEU PRÓXIMO PASSO COMEÇA AQUI",
+    "title": "Mais que correr.",
+    "emphasis": "Conectar.",
+    "description": "Um espaço feito por mulheres, para mulheres que querem se movimentar, fazer novas amizades e descobrir até onde podem chegar.",
+    "primaryAction": "Encontre seu grupo",
+    "secondaryAction": "Conheça a comunidade",
+    "photoCaption": "Juntas, no nosso ritmo.",
+    "photoSubcaption": "Desde o primeiro passo",
+    "photoAlt": "Quatro mulheres correndo juntas ao ar livre",
+    "image": "images/elas-correndo-juntas.png",
+    "photoNote": "VEM COMO VOCÊ É",
+    "proofTitle": "Uma comunidade inteira",
+    "proofSubtitle": "para correr no seu ritmo",
+    "proofRating": "★★★★★"
+  },
+  "ticker": [
+    "CORREMOS JUNTAS",
+    "FAZEMOS AMIZADES",
+    "CELEBRAMOS CADA PASSO",
+    "NO NOSSO RITMO"
+  ],
+  "about": {
+    "eyebrow": "UM LUGAR PARA VOCÊ",
+    "title": "O melhor pace é",
+    "emphasis": "aquele que tem companhia.",
+    "description": "A gente acredita que correr fica mais leve quando é compartilhado. Aqui, cada encontro vira uma história, cada quilômetro aproxima e todo começo merece ser celebrado.",
+    "values": [
+      {
+        "title": "Sem pressão",
+        "description": "Respeitamos o seu tempo, seu corpo e seu caminho."
+      },
+      {
+        "title": "Juntas é melhor",
+        "description": "Uma comunidade acolhedora, onde ninguém fica para trás."
+      },
+      {
+        "title": "Movimento que inspira",
+        "description": "Pequenos passos também são grandes conquistas."
+      }
+    ]
+  },
+  "community": {
+    "eyebrow": "SEU LUGAR É AQUI",
+    "title": "Uma comunidade.",
+    "emphasis": "Mil novos motivos.",
+    "description": "Receba incentivo, dicas e convites para correr por aí com mulheres incríveis.",
+    "meetingFrequency": "1 encontro presencial todo mês",
+    "promise": "Sem pressão. Sem pace obrigatório. Só boas companhias.",
+    "action": "Quero fazer parte",
+    "meetingNumber": "1x",
+    "meetingDescription": "encontro presencial todo mês",
+    "friendshipStat": "∞",
+    "friendshipDescription": "amizades que começam no caminho"
+  },
+  "quote": {
+    "text": "Você não precisa ir rápido.",
+    "emphasis": "Só precisa ir com a gente.",
+    "byline": "COM CARINHO, CORRE, MANA",
+    "mark": "“"
+  },
+  "footer": {
+    "message": "Feito de mulheres, para mulheres.",
+    "copyright": "© 2026 Corre, Mana"
+  },
+  "navigation": {
+    "about": "A comunidade",
+    "experiences": "Experiências",
+    "features": "O clube",
+    "memberAction": "Já faço parte",
+    "joinAction": "Quero correr junto",
+    "menuOpen": "Abrir menu",
+    "menuClose": "Fechar menu"
+  },
+  "experienceSection": {
+    "eyebrow": "A VIDA ACONTECE EM MOVIMENTO",
+    "title": "Tem sempre algo",
+    "emphasis": "te esperando.",
+    "action": "Ver todas as experiências"
+  },
+  "featureSection": {
+    "eyebrow": "O CLUBE POR DENTRO",
+    "title": "Seu próximo passo",
+    "emphasis": "tem companhia.",
+    "description": "Conteúdo e vantagens para acompanhar você antes, durante e depois da corrida.",
+    "filters": [
+      {
+        "id": "all",
+        "label": "Tudo"
+      },
+      {
+        "id": "movimento",
+        "label": "Movimento"
+      },
+      {
+        "id": "bem-estar",
+        "label": "Bem-estar"
+      },
+      {
+        "id": "vantagens",
+        "label": "Vantagens"
+      }
+    ]
+  },
+  "form": {
+    "eyebrow": "VEM COM A GENTE",
+    "title": "Seu próximo passo começa",
+    "emphasis": "aqui.",
+    "description": "Deixa seu e-mail para receber novidades, dicas e o convite do próximo encontro.",
+    "emailLabel": "Seu melhor e-mail",
+    "emailPlaceholder": "voce@email.com",
+    "submit": "Quero entrar",
+    "helper": "Versão estática: seu e-mail ainda não fica salvo.",
+    "success": "Obrigada! A inscrição ainda não é armazenada nesta versão estática."
+  }
+}

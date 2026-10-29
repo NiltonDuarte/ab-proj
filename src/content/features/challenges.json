@@ -1,0 +1,21 @@
+{
+  "id": "challenges",
+  "category": "movimento",
+  "icon": "spark",
+  "label": "DESAFIO DO MÊS",
+  "title": "Desafios do nosso jeito",
+  "description": "Metas gentis para manter a motivação, celebrar cada passo e acompanhar o ritmo da comunidade.",
+  "detail": "Caminhada também conta: o importante é aparecer por você.",
+  "emptyState": "O próximo desafio será anunciado pela comunidade.",
+  "items": [
+    {
+      "id": "quatro-semanas",
+      "name": "4 semanas em movimento",
+      "duration": "4 semanas",
+      "goal": "Escolha um momento para se movimentar a cada semana. Caminhar também vale.",
+      "description": "Uma proposta aberta e adaptável, sem pace obrigatório."
+    }
+  ],
+  "action": "Participar do desafio",
+  "joinedAction": "Participando"
+}

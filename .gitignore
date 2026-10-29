@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Vite production output and local cache
+dist/
+.vite/
+
+# TypeScript incremental build state
+*.tsbuildinfo
+
+# Local environment values (keep the documented template)
+.env
+.env.*
+!.env.example
+
+# Logs and coverage output
+*.log
+npm-debug.log*
+coverage/
+
+# Operating system files
+.DS_Store
+Thumbs.db

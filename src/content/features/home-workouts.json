@@ -1,0 +1,41 @@
+{
+  "id": "home-workouts",
+  "category": "movimento",
+  "icon": "shoe",
+  "label": "EM CASA",
+  "title": "Treinos no seu ritmo",
+  "description": "Sessões curtas para fazer em casa, com opções para começar sem equipamento.",
+  "detail": "Mobilidade, força e corrida para iniciantes.",
+  "emptyState": "Novos treinos serão publicados em breve.",
+  "items": [
+    {
+      "id": "mobilidade-10",
+      "name": "Mobilidade para começar",
+      "duration": "10 min",
+      "level": "Iniciante",
+      "equipment": "Sem equipamento",
+      "description": "Uma sequência leve para acordar o corpo antes de caminhar ou correr.",
+      "steps": [
+        "Marcha no lugar — 2 min",
+        "Círculos de quadril e tornozelo — 2 min",
+        "Agachamento confortável — 2 séries de 8",
+        "Alongamento dinâmico de panturrilha — 2 min"
+      ]
+    },
+    {
+      "id": "forca-15",
+      "name": "Força em casa",
+      "duration": "15 min",
+      "level": "Iniciante",
+      "equipment": "Cadeira firme",
+      "description": "Circuito geral de força com pausas. Adapte os movimentos ao seu conforto.",
+      "steps": [
+        "Sentar e levantar da cadeira — 2 séries de 8",
+        "Elevação de panturrilha — 2 séries de 10",
+        "Ponte de glúteos — 2 séries de 8",
+        "Descanso de 60 segundos entre as séries"
+      ]
+    }
+  ],
+  "action": "Acessar treinos"
+}

@@ -1,0 +1,168 @@
+name: Build and publish Corre, Mana
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      preview_branches:
+        description: Comma-separated feature branches. Blank uses .github/preview-branches.json.
+        required: false
+        type: string
+        default: ''
+  workflow_run:
+    workflows: [Validate feature branch]
+    types: [completed]
+    branches: ['feature/**']
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  prepare:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+    outputs:
+      matrix: ${{ steps.branches.outputs.matrix }}
+      has_previews: ${{ steps.branches.outputs.has_previews }}
+      branches: ${{ steps.branches.outputs.branches }}
+    steps:
+      - name: Check out trusted main configuration
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Resolve selected preview branches
+        id: branches
+        env:
+          PREVIEW_BRANCHES_INPUT: ${{ inputs.preview_branches }}
+        run: node scripts/resolve-preview-branches.mjs
+
+  build-release:
+    needs: prepare
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out release branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Validate release content
+        run: npm run content -- validate
+      - name: Build release site
+        run: npm run build
+      - name: Upload release build
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-release
+          path: dist
+          if-no-files-found: error
+          retention-days: 1
+
+  build-previews:
+    needs: prepare
+    if: needs.prepare.outputs.has_previews == 'true'
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJson(needs.prepare.outputs.matrix) }}
+    steps:
+      - name: Check out selected feature branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ matrix.branch }}
+          path: candidate
+          persist-credentials: false
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: candidate/package-lock.json
+      - name: Install dependencies
+        working-directory: candidate
+        run: npm ci
+      - name: Validate feature content
+        working-directory: candidate
+        run: npm run content -- validate
+      - name: Build feature site
+        working-directory: candidate
+        run: npm run build
+      - name: Place build under its preview path
+        env:
+          PREVIEW_SLUG: ${{ matrix.slug }}
+        run: |
+          mkdir -p "candidate-preview/previews/$PREVIEW_SLUG"
+          cp -R candidate/dist/. "candidate-preview/previews/$PREVIEW_SLUG/"
+      - name: Upload feature build
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-preview-${{ matrix.slug }}
+          path: candidate-preview
+          if-no-files-found: error
+          retention-days: 1
+
+  assemble-pages:
+    needs: [prepare, build-release, build-previews]
+    if: >-
+      always() && needs.prepare.result == 'success' && needs.build-release.result == 'success' &&
+      (needs.build-previews.result == 'success' || needs.build-previews.result == 'skipped')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out trusted preview index generator
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Download release and feature builds
+        uses: actions/download-artifact@v4
+        with:
+          pattern: site-*
+          merge-multiple: true
+          path: dist
+      - name: Create preview gallery index
+        env:
+          PREVIEW_BRANCHES_JSON: ${{ needs.prepare.outputs.branches }}
+        run: node scripts/create-preview-index.mjs dist
+      - name: Upload combined GitHub Pages site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+
+  deploy:
+    needs: [prepare, assemble-pages]
+    if: needs.assemble-pages.result == 'success'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - name: Deploy combined release and feature previews
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Add deployment links to summary
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          echo "## Corre, Mana published" >> "$GITHUB_STEP_SUMMARY"
+          echo "[Release page]($PAGE_URL)" >> "$GITHUB_STEP_SUMMARY"
+          echo "[Preview gallery](${PAGE_URL%/}/previews/)" >> "$GITHUB_STEP_SUMMARY"

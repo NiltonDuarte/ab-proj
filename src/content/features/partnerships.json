@@ -1,0 +1,12 @@
+{
+  "id": "partnerships",
+  "category": "vantagens",
+  "icon": "heart",
+  "label": "PARCERIAS",
+  "title": "Marcas que correm com a gente",
+  "description": "Conheça negócios e profissionais parceiros que apoiam mulheres em movimento.",
+  "detail": "Bem-estar, esporte e encontros locais.",
+  "emptyState": "Estamos construindo parcerias. Os nomes e condições serão publicados após confirmação.",
+  "items": [],
+  "action": "Conhecer parceiros"
+}
