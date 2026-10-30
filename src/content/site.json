@@ -3,19 +3,19 @@
   "shortBrand": "EleVa",
   "instagram": "@_e.l.e.v.a",
   "hero": {
-    "eyebrow": "MULHERES QUE SE ELEVAM JUNTAS",
-    "title": "Movimento com",
-    "emphasis": "intenção.",
-    "description": "O EleVa reúne mulheres no Rio para correr ao ar livre, compartilhar cuidado e construir conexões que continuam entre os encontros.",
-    "primaryAction": "Participar da próxima edição",
-    "secondaryAction": "Acompanhe no Instagram",
+    "eyebrow": "CORPO · MENTE · CONEXÃO",
+    "title": "Uma comunidade",
+    "emphasis": "para florescer.",
+    "description": "Movimento, autocuidado e boas conexões no seu ritmo. Conheça o piloto digital da EleVa e experimente 7 dias grátis.",
+    "primaryAction": "Quero testar por 7 dias",
+    "secondaryAction": "Conheça a comunidade",
     "photoCaption": "Mulheres que se elevam juntas.",
     "photoSubcaption": "Rio de Janeiro · RJ",
-    "photoAlt": "Mulheres da comunidade EleVa reunidas após uma corrida",
-    "image": "images/eleva-encontro.jpg",
+    "photoAlt": "Grupo de mulheres da EleVa reunido em um encontro ao ar livre",
+    "image": "images/eleva-hero-comunidade.jpg",
     "photoNote": "CORPO · MENTE · CONEXÃO",
-    "proofTitle": "Encontros mensais",
-    "proofSubtitle": "corrida, cuidado e novas conexões"
+    "proofTitle": "Piloto de assinatura",
+    "proofSubtitle": "7 dias gratuitos para começar"
   },
   "ticker": [
     "CORPO",
@@ -24,37 +24,37 @@
     "MULHERES QUE SE ELEVAM JUNTAS"
   ],
   "about": {
-    "eyebrow": "NOSSO PROPÓSITO",
-    "title": "Mais do que correr,",
-    "emphasis": "é se reconectar.",
-    "description": "Criado por Andrezza Bonfim com a nutricionista Nathália Pinna, o EleVa transforma a corrida ao ar livre em uma experiência coletiva de autocuidado, acolhimento e evolução.",
+    "eyebrow": "O PILOTO ELEVA",
+    "title": "Seu espaço para",
+    "emphasis": "cuidar de você.",
+    "description": "Uma comunidade para mulheres que querem se movimentar, fazer amizades e encontrar inspiração para uma rotina mais leve. O piloto reúne conteúdos práticos e benefícios em um só lugar.",
     "values": [
       {
-        "title": "Corpo",
-        "description": "Movimento ao ar livre no seu ritmo, celebrando cada conquista."
+        "title": "Nutricional",
+        "description": "Conteúdo geral, receitas e orientação para buscar acompanhamento individual."
       },
       {
-        "title": "Mente",
-        "description": "Presença, leveza e evolução sem pressão."
+        "title": "Movimento",
+        "description": "Mobilidade e treinos em casa para respeitar seu ritmo."
       },
       {
         "title": "Conexão",
-        "description": "Amizades genuínas e uma comunidade que acolhe e inspira."
+        "description": "Parcerias, descobertas e conversas que aproximam mulheres."
       }
     ]
   },
   "community": {
-    "eyebrow": "UMA VEZ POR MÊS, JUNTAS",
-    "title": "Cada edição,",
-    "emphasis": "um ritual completo.",
-    "description": "Corrida ao ar livre, café da manhã social, orientação nutricional e boas conversas. Cada mulher encontra seu lugar, independente do ritmo.",
-    "meetingFrequency": "Encontro presencial mensal no Rio de Janeiro",
-    "promise": "Lagoa, parques e orla. A gente vai no seu ritmo.",
-    "action": "Conversar sobre a próxima edição",
-    "meetingNumber": "1x",
-    "meetingDescription": "encontro presencial por mês",
-    "friendshipStat": "∞",
-    "friendshipDescription": "conexões que seguem entre as edições"
+    "eyebrow": "EXPERIMENTE A ELEVA",
+    "title": "Sete dias para",
+    "emphasis": "se elevar juntas.",
+    "description": "Conheça os conteúdos e benefícios do piloto sem custo por 7 dias. Depois, escolha com calma como quer continuar.",
+    "meetingFrequency": "Acesso inicial gratuito por 7 dias",
+    "promise": "Sem pressão. Movimento com leveza, no seu ritmo.",
+    "action": "Começar meu teste grátis",
+    "meetingNumber": "7",
+    "meetingDescription": "dias gratuitos no piloto",
+    "friendshipStat": "3",
+    "friendshipDescription": "planos mensais em estruturação"
   },
   "quote": {
     "text": "Mais do que correr,",
@@ -63,47 +63,101 @@
     "mark": "“"
   },
   "footer": {
-    "message": "Mulheres que se elevam juntas.",
-    "copyright": "© 2026 EleVa · Rio de Janeiro"
+    "message": "Corpo em movimento. Mente em equilíbrio. Mulheres em conexão.",
+    "copyright": "© 2026 EleVa · Mulheres que se elevam juntas"
   },
   "navigation": {
-    "about": "O propósito",
-    "experiences": "Experiências",
-    "features": "O que oferecemos",
+    "about": "O piloto",
+    "experiences": "Como funciona",
+    "features": "Conteúdos",
     "memberAction": "Instagram",
-    "joinAction": "Fale com a EleVa",
+    "joinAction": "Testar grátis",
     "menuOpen": "Abrir menu",
-    "menuClose": "Fechar menu"
+    "menuClose": "Fechar menu",
+    "subscriptionAction": "Assinatura"
   },
   "experienceSection": {
-    "eyebrow": "EXPERIÊNCIAS ELEVA",
-    "title": "Cada edição,",
-    "emphasis": "um ritual completo.",
-    "action": "Fale com a EleVa"
+    "eyebrow": "UMA COMUNIDADE, MUITOS JEITOS",
+    "title": "Cuidado que cabe",
+    "emphasis": "na sua rotina.",
+    "action": "Quero conhecer"
   },
   "featureSection": {
-    "eyebrow": "CORPO · MENTE · CONEXÃO",
-    "title": "Um ecossistema",
-    "emphasis": "de bem-estar.",
-    "description": "Encontros presenciais, cuidado nutricional e uma comunidade ativa entre cada edição.",
+    "eyebrow": "CONTEÚDO PARA SUA ROTINA",
+    "title": "Quatro formas",
+    "emphasis": "de se cuidar.",
+    "description": "Explore o que já faz parte da proposta do piloto EleVa. Conteúdos e ofertas são publicados à medida que forem confirmados.",
     "filters": [
       {
         "id": "all",
         "label": "Tudo"
       },
       {
+        "id": "nutricional",
+        "label": "Nutricional"
+      },
+      {
         "id": "movimento",
         "label": "Movimento"
       },
       {
-        "id": "bem-estar",
-        "label": "Bem-estar"
+        "id": "parceiros",
+        "label": "Parceiros"
       },
       {
-        "id": "vantagens",
-        "label": "Vantagens"
+        "id": "entretenimento",
+        "label": "Entretenimento"
+      }
+    ],
+    "groups": [
+      {
+        "id": "nutricional",
+        "title": "Nutricional",
+        "description": "Informação geral e educativa para apoiar escolhas conscientes."
+      },
+      {
+        "id": "movimento",
+        "title": "Movimento",
+        "description": "Mobilidade, treino em casa e desafios para encontrar o seu ritmo."
+      },
+      {
+        "id": "parceiros",
+        "title": "Parceiros",
+        "description": "Vantagens e descobertas serão divulgadas quando estiverem confirmadas."
+      },
+      {
+        "id": "entretenimento",
+        "title": "Entretenimento",
+        "description": "Lugares para correr e leituras para compartilhar."
       }
     ]
   },
-  "whatsappNumber": "5521997043280"
+  "whatsappNumber": "5521997043280",
+  "subscriptionSection": {
+    "eyebrow": "ASSINATURA ELEVA",
+    "title": "Comece pelo",
+    "emphasis": "piloto gratuito.",
+    "description": "O acesso inicial dura 7 dias e não tem custo. Os três planos mensais estão em estruturação; valores e benefícios serão apresentados quando estiverem definidos.",
+    "trialLabel": "7 DIAS GRÁTIS",
+    "trialTitle": "Experimente o piloto",
+    "trialDescription": "Conheça os conteúdos e benefícios disponíveis na comunidade EleVa.",
+    "trialAction": "Quero participar do piloto",
+    "plans": [
+      {
+        "name": "Plano mensal 01",
+        "status": "EM DEFINIÇÃO",
+        "description": "Nome, benefícios e valor serão divulgados em breve."
+      },
+      {
+        "name": "Plano mensal 02",
+        "status": "EM DEFINIÇÃO",
+        "description": "Nome, benefícios e valor serão divulgados em breve."
+      },
+      {
+        "name": "Plano mensal 03",
+        "status": "EM DEFINIÇÃO",
+        "description": "Nome, benefícios e valor serão divulgados em breve."
+      }
+    ]
+  }
 }

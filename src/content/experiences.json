@@ -1,5 +1,26 @@
 [
-  {"id":"corrida-ao-ar-livre","title":"Corrida ao ar livre","description":"Percursos cariocas para todos os ritmos, em um ambiente acolhedor.","tag":"RIO DE JANEIRO","image":"images/eleva-corrida.jpg","imageAlt":"Participante do EleVa em uma corrida na orla do Rio de Janeiro"},
-  {"id":"cafe-da-manha-social","title":"Café da manhã social","description":"Alimentação saudável e boas conversas depois do movimento.","tag":"DEPOIS DA CORRIDA","image":"images/eleva-conexao.jpg","imageAlt":"Duas mulheres da comunidade EleVa juntas após correr junto à Lagoa"},
-  {"id":"networking-feminino","title":"Networking feminino","description":"Amizades reais que continuam entre uma edição e outra.","tag":"CONEXÃO GENUÍNA","image":"images/eleva-encontro.jpg","imageAlt":"Mulheres participantes do EleVa reunidas ao ar livre"}
+  {
+    "id": "corrida-ao-ar-livre",
+    "title": "Corrida ao ar livre",
+    "description": "Percursos cariocas para todos os ritmos, em um ambiente acolhedor.",
+    "tag": "RIO DE JANEIRO",
+    "image": "images/eleva-movimento.jpg",
+    "imageAlt": "Grupo de mulheres da EleVa reunido com roupas esportivas em um encontro ao ar livre"
+  },
+  {
+    "id": "cafe-da-manha-social",
+    "title": "Café da manhã social",
+    "description": "Alimentação saudável e boas conversas depois do movimento.",
+    "tag": "DEPOIS DA CORRIDA",
+    "image": "images/eleva-cafe-da-carol.jpg",
+    "imageAlt": "Fachada do Café da Carol, espaço de encontro da comunidade"
+  },
+  {
+    "id": "networking-feminino",
+    "title": "Networking feminino",
+    "description": "Amizades reais que continuam entre uma edição e outra.",
+    "tag": "CONEXÃO GENUÍNA",
+    "image": "images/eleva-conexao.jpg",
+    "imageAlt": "Mulheres da comunidade EleVa reunidas antes de uma atividade"
+  }
 ]

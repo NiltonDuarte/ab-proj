@@ -1,0 +1,12 @@
+{
+  "id": "books",
+  "category": "entretenimento",
+  "icon": "book",
+  "label": "LEITURAS",
+  "title": "Indicação de livros",
+  "description": "Leituras escolhidas para inspirar conversas, conhecimento e momentos de pausa.",
+  "detail": "Uma lista colaborativa de livros da comunidade.",
+  "emptyState": "As primeiras indicações de livros serão adicionadas em breve.",
+  "items": [],
+  "action": "Indicar um livro"
+}

@@ -1,12 +1,12 @@
 {
   "id": "partnerships",
-  "category": "vantagens",
+  "category": "parceiros",
   "icon": "heart",
-  "label": "PARCERIAS",
-  "title": "Parcerias com propósito",
-  "description": "O EleVa recebe marcas e profissionais de gastronomia, lifestyle, wellness, moda e esporte alinhados à saúde e à conexão feminina.",
-  "detail": "Ativações e experiências compartilhadas nas edições mensais.",
-  "emptyState": "Conheça oportunidades de ativação de marca, experiências exclusivas e conteúdo. Os formatos são combinados com a organização.",
+  "label": "POSSÍVEIS PARCEIROS",
+  "title": "Rede de cuidado",
+  "description": "Nutricionista, terapeuta, estúdio de Pilates, massagem, restaurantes e educador físico. A EleVa planeja receber comissão quando uma matrícula for feita por indicação da comunidade; condições serão informadas antes da adesão.",
+  "detail": "Conexões com profissionais e espaços alinhados à comunidade.",
+  "emptyState": "Estamos estruturando a rede. Nenhum parceiro ou condição comercial está confirmado ainda.",
   "items": [],
-  "action": "Conversar sobre parcerias"
+  "action": "Quero ser parceiro"
 }

@@ -2,9 +2,9 @@
   "id": "challenges",
   "category": "movimento",
   "icon": "spark",
-  "label": "DESAFIO DO MÊS",
+  "label": "DESAFIOS",
   "title": "Desafios do nosso jeito",
-  "description": "Metas gentis para manter a motivação, celebrar cada passo e acompanhar o ritmo da comunidade.",
+  "description": "Pequenos convites para manter o movimento com leveza, sem pressão por resultado.",
   "detail": "Caminhada também conta: o importante é aparecer por você.",
   "emptyState": "O próximo desafio será anunciado pela comunidade.",
   "items": [

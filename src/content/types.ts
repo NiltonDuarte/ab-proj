@@ -6,7 +6,7 @@ export type FeatureEntry = {
 
 export type Feature = {
   id: string
-  category: 'movimento' | 'bem-estar' | 'vantagens'
+  category: 'nutricional' | 'movimento' | 'parceiros' | 'entretenimento'
   icon: string
   label: string
   title: string

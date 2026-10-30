@@ -5,6 +5,7 @@ A página é compilada como site estático. Os JSON abaixo são importados pelo 
 - `site.json`: marca, hero, apresentação, comunidade, frase e rodapé.
 - `experiences.json`: cards de experiências e respectivos caminhos de imagem.
 - `features/routes.json`: lugares para correr (`id`, `name`, `city`, `type`, `distance`, `notes`).
+- `features/books.json`: indicações de livros (`id`, `name`, `author`, `theme`, `notes`).
 - `features/breakfasts.json`: cafés e brunches (`id`, `name`, `city`, `category`, `priceRange`, `notes`).
 - `features/home-workouts.json`: treinos (`id`, `name`, `duration`, `level`, `equipment`, `description`, `steps`).
 - `features/challenges.json`: desafios (`id`, `name`, `duration`, `goal`, `description`).
@@ -18,9 +19,11 @@ A página é compilada como site estático. Os JSON abaixo são importados pelo 
 npm run content -- list
 npm run content -- validate
 npm run content -- show routes
+npm run content -- show books
 npm run content -- add routes --id parque-da-cidade --name "Parque da Cidade" --city "Brasília" --type parque --distance "percurso de 5 km" --notes "Dica de acesso e horário"
 npm run content -- edit routes parque-da-cidade --field notes --value "Nova dica confirmada"
 npm run content -- remove routes parque-da-cidade
+npm run content -- add books --id exemplo-livro --name "Título" --author "Autoria" --theme "Tema" --notes "Por que indicar à comunidade"
 ```
 
 Para adicionar etapas de treino, passe `--steps "etapa 1|etapa 2|etapa 3"`. Os campos de cada coleção são obrigatórios e a CLI valida IDs duplicados. Mantenha as recomendações locais associadas à cidade correta; não publique ofertas, cupons ou parcerias antes da confirmação.

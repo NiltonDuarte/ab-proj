@@ -1,12 +1,12 @@
 {
   "id": "nutrition",
-  "category": "bem-estar",
+  "category": "nutricional",
   "icon": "leaf",
-  "label": "NUTRIÇÃO",
-  "title": "Orientação nutricional",
-  "description": "A nutricionista Nathália Pinna compartilha orientações práticas de pré e pós-treino, com cuidado e olhar humano.",
-  "detail": "Nutrição integrada às experiências presenciais do EleVa.",
-  "emptyState": "Novos conteúdos de nutrição serão adicionados em breve.",
+  "label": "NUTRICIONAL",
+  "title": "Nutrição para o dia a dia",
+  "description": "Nutrição com informação geral, receitas simples e educação sobre suplementos. Para um plano individual, fale com uma nutricionista.",
+  "detail": "Plano alimentar básico, receitas saudáveis e informação sobre suplementos.",
+  "emptyState": "Conteúdos educativos serão publicados no piloto. Acompanhamento individual exige conversa com nutricionista.",
   "items": [
     {
       "id": "orientacao-pre-pos-treino",
@@ -19,8 +19,26 @@
       "name": "Informação para o dia a dia",
       "type": "CONTEÚDO GERAL",
       "description": "Dicas para observar sua rotina e conversar com profissionais qualificados sobre suas necessidades."
+    },
+    {
+      "id": "prato-equilibrado",
+      "name": "Prato equilibrado",
+      "type": "ALIMENTAÇÃO GERAL",
+      "description": "Uma referência educativa é combinar alimentos variados, como vegetais, fontes de energia e proteínas, respeitando cultura, acesso, preferências e necessidades individuais. Não é um cardápio nem uma prescrição."
+    },
+    {
+      "id": "receita-fruta-iogurte",
+      "name": "Fruta com iogurte e aveia",
+      "type": "IDEIA DE LANCHE",
+      "description": "Combine fruta da estação, iogurte e aveia para uma opção prática. Adapte ingredientes a alergias, restrições e preferências; esta sugestão não é individualizada."
+    },
+    {
+      "id": "suplementos-com-orientacao",
+      "name": "Suplementos: informação antes da escolha",
+      "type": "EDUCAÇÃO",
+      "description": "Suplementos não são necessários para todas as pessoas e podem ter riscos ou interações. Converse com profissional de saúde habilitado antes de iniciar o uso."
     }
   ],
-  "disclaimer": "Conteúdo geral e educativo. Para recomendações individuais, converse com uma nutricionista.",
-  "action": "Fale com a organização"
+  "disclaimer": "Conteúdo geral, não substitui avaliação ou plano alimentar individual. Suplementos só devem ser usados com orientação profissional.",
+  "action": "Conversar com nutricionista"
 }

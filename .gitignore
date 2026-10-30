@@ -21,3 +21,6 @@ coverage/
 # Operating system files
 .DS_Store
 Thumbs.db
+
+# Banco local de imagens (arquivos de referência não versionados)
+/base-imagens/

@@ -1,12 +1,12 @@
 {
   "id": "breakfasts",
-  "category": "bem-estar",
+  "category": "parceiros",
   "icon": "coffee",
-  "label": "PÓS-CORRIDA",
-  "title": "Cafés da manhã",
-  "description": "Indicações de cafés, brunches e lugares gostosos para recuperar as energias juntas.",
-  "detail": "Cafés e brunches salvos pela comunidade.",
-  "emptyState": "As indicações de café da manhã aparecem aqui quando forem adicionadas pela comunidade.",
+  "label": "RESTAURANTES",
+  "title": "Restaurantes e cafés",
+  "description": "Sugestões de restaurantes e café da manhã serão adicionadas com informações confirmadas.",
+  "detail": "Sugestões de lugares para compartilhar com a comunidade.",
+  "emptyState": "As indicações serão adicionadas após confirmação das informações.",
   "items": [],
   "action": "Indicar um café"
 }

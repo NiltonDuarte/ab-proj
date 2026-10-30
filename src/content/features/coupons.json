@@ -1,12 +1,12 @@
 {
   "id": "coupons",
-  "category": "vantagens",
+  "category": "parceiros",
   "icon": "ticket",
   "label": "CUPONS",
-  "title": "Vantagens para membros",
-  "description": "Benefícios e ofertas de marcas parceiras serão publicados após confirmação.",
-  "detail": "Vantagens compartilhadas com a comunidade EleVa.",
+  "title": "Cupons e vantagens",
+  "description": "Cupons e condições de parceiros serão publicados quando forem confirmados.",
+  "detail": "Benefícios de parceiros para a comunidade.",
   "emptyState": "As condições de cada parceria serão divulgadas quando estiverem confirmadas.",
   "items": [],
-  "action": "Consultar benefícios"
+  "action": "Perguntar sobre vantagens"
 }

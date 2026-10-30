@@ -2,9 +2,9 @@
   "id": "home-workouts",
   "category": "movimento",
   "icon": "shoe",
-  "label": "EM CASA",
+  "label": "MOVIMENTO",
   "title": "Treinos no seu ritmo",
-  "description": "Sessões curtas para fazer em casa, com opções para começar sem equipamento.",
+  "description": "Mobilidade e treino em casa, com opções iniciais e adaptações ao seu ritmo.",
   "detail": "Mobilidade, força e corrida para iniciantes.",
   "emptyState": "Novos treinos serão publicados em breve.",
   "items": [
