@@ -3,24 +3,24 @@
   "category": "bem-estar",
   "icon": "leaf",
   "label": "NUTRIÇÃO",
-  "title": "Comer bem, sem pressão",
-  "description": "Ideias gerais de refeições e hidratação para acompanhar sua rotina de movimento.",
-  "detail": "Conteúdo educativo e opções de acompanhamento personalizado com nutricionista.",
+  "title": "Orientação nutricional",
+  "description": "A nutricionista Nathália Pinna compartilha orientações práticas de pré e pós-treino, com cuidado e olhar humano.",
+  "detail": "Nutrição integrada às experiências presenciais do EleVa.",
   "emptyState": "Novos conteúdos de nutrição serão adicionados em breve.",
   "items": [
     {
-      "id": "antes-de-correr",
-      "name": "Antes de se movimentar",
-      "type": "DICA GERAL",
-      "description": "Observe como seu corpo se sente com diferentes refeições e horários. Necessidades variam de pessoa para pessoa."
+      "id": "orientacao-pre-pos-treino",
+      "name": "Pré e pós-treino",
+      "type": "COM NUTRICIONISTA",
+      "description": "Orientações práticas de alimentação antes e depois do movimento, sem restrições e com respeito às necessidades individuais."
     },
     {
-      "id": "acompanhamento",
-      "name": "Acompanhamento individual",
-      "type": "COM NUTRICIONISTA",
-      "description": "Para um plano alimentar personalizado, procure uma nutricionista que conheça sua saúde, rotina e objetivos."
+      "id": "conteudo-educativo",
+      "name": "Informação para o dia a dia",
+      "type": "CONTEÚDO GERAL",
+      "description": "Dicas para observar sua rotina e conversar com profissionais qualificados sobre suas necessidades."
     }
   ],
-  "disclaimer": "Conteúdo educativo geral, não substitui orientação de nutricionista. Necessidades alimentares são individuais.",
-  "action": "Ver conteúdo de nutrição"
+  "disclaimer": "Conteúdo geral e educativo. Para recomendações individuais, converse com uma nutricionista.",
+  "action": "Fale com a organização"
 }

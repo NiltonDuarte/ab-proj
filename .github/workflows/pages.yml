@@ -1,19 +1,13 @@
-name: Build and publish Corre, Mana
+name: Build and publish EleVa
 
 on:
   push:
     branches: [main]
+  delete:
   workflow_dispatch:
-    inputs:
-      preview_branches:
-        description: Comma-separated feature branches. Blank uses .github/preview-branches.json.
-        required: false
-        type: string
-        default: ''
   workflow_run:
-    workflows: [Validate feature branch]
+    workflows: [Validate preview branch]
     types: [completed]
-    branches: ['feature/**']
 
 permissions:
   contents: read
@@ -24,27 +18,26 @@ concurrency:
 
 jobs:
   prepare:
-    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    if: github.event_name != 'delete' || (github.event.ref_type == 'branch' && github.event.ref != 'main')
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      pages: write
+      pages: read
     outputs:
       matrix: ${{ steps.branches.outputs.matrix }}
       has_previews: ${{ steps.branches.outputs.has_previews }}
       branches: ${{ steps.branches.outputs.branches }}
     steps:
-      - name: Check out trusted main configuration
+      - name: Check out trusted main configuration and remote refs
         uses: actions/checkout@v4
         with:
           ref: main
+          fetch-depth: 0
           persist-credentials: false
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
-      - name: Resolve selected preview branches
+      - name: Discover all remote branches except main
         id: branches
-        env:
-          PREVIEW_BRANCHES_INPUT: ${{ inputs.preview_branches }}
         run: node scripts/resolve-preview-branches.mjs
 
   build-release:
@@ -77,13 +70,14 @@ jobs:
 
   build-previews:
     needs: prepare
+    continue-on-error: true
     if: needs.prepare.outputs.has_previews == 'true'
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix: ${{ fromJson(needs.prepare.outputs.matrix) }}
     steps:
-      - name: Check out selected feature branch
+      - name: Check out branch for preview
         uses: actions/checkout@v4
         with:
           ref: ${{ matrix.branch }}
@@ -98,22 +92,22 @@ jobs:
       - name: Install dependencies
         working-directory: candidate
         run: npm ci
-      - name: Validate feature content
+      - name: Validate branch content
         working-directory: candidate
         run: npm run content -- validate
-      - name: Build feature site
+      - name: Build branch site
         working-directory: candidate
         run: npm run build
       - name: Place build under its preview path
         env:
-          PREVIEW_SLUG: ${{ matrix.slug }}
+          PREVIEW_PATH: ${{ matrix.path }}
         run: |
-          mkdir -p "candidate-preview/previews/$PREVIEW_SLUG"
-          cp -R candidate/dist/. "candidate-preview/previews/$PREVIEW_SLUG/"
-      - name: Upload feature build
+          mkdir -p "candidate-preview/previews/$PREVIEW_PATH"
+          cp -R candidate/dist/. "candidate-preview/previews/$PREVIEW_PATH/"
+      - name: Upload branch build
         uses: actions/upload-artifact@v4
         with:
-          name: site-preview-${{ matrix.slug }}
+          name: ${{ matrix.artifact }}
           path: candidate-preview
           if-no-files-found: error
           retention-days: 1
@@ -130,7 +124,7 @@ jobs:
         with:
           ref: main
           persist-credentials: false
-      - name: Download release and feature builds
+      - name: Download release and branch builds
         uses: actions/download-artifact@v4
         with:
           pattern: site-*
@@ -156,13 +150,13 @@ jobs:
       pages: write
       id-token: write
     steps:
-      - name: Deploy combined release and feature previews
+      - name: Deploy release and every branch preview
         id: deployment
         uses: actions/deploy-pages@v4
       - name: Add deployment links to summary
         env:
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
         run: |
-          echo "## Corre, Mana published" >> "$GITHUB_STEP_SUMMARY"
+          echo "## EleVa published" >> "$GITHUB_STEP_SUMMARY"
           echo "[Release page]($PAGE_URL)" >> "$GITHUB_STEP_SUMMARY"
           echo "[Preview gallery](${PAGE_URL%/}/previews/)" >> "$GITHUB_STEP_SUMMARY"

@@ -27,10 +27,12 @@ Para adicionar etapas de treino, passe `--steps "etapa 1|etapa 2|etapa 3"`. Os c
 
 Depois de atualizar conteúdo, rode `npm run content -- validate` e `npm run build`. O GitHub Actions publica o diretório `dist` no GitHub Pages quando há push para `main`.
 
-Para ativar o workflow, abra **Settings → Pages** neste repositório e escolha **GitHub Actions** como origem de publicação. O workflow publica o artifact combinado em pushes para `main` e após a validação de pushes em branches selecionadas.
+Para ativar o workflow, abra **Settings → Pages** neste repositório e escolha **GitHub Actions** como origem de publicação. O workflow publica o artifact combinado em pushes para `main` e após a validação de pushes em qualquer branch diferente de `main`.
 
-## Previews de feature branches
+## Previews de branches
 
-O workflow monta uma publicação combinada em um único artifact: `main` fica na raiz e branches selecionadas ficam em `previews/<branch-com-barras-trocadas-por-hífens>/`. O índice comparativo fica em `/previews/`. Configure as branches em `.github/preview-branches.json` (ex.: `feature/nova-home`) para que pushes nelas atualizem a galeria; a URL será `/previews/feature-nova-home/`; ou informe uma lista separada por vírgulas ao executar manualmente **Build and publish Corre, Mana** na branch `main` (a lista manual vale só para aquela execução).
+O workflow monta um único artifact para Pages: `main` fica na raiz e cada outra branch remota ganha uma versão em `/previews/<branch>/`. O índice comparativo fica em `/previews/`.
 
-Um push para uma branch `feature/**` valida e compila essa branch sem permissão de publicação. Após a validação, um workflow confiável definido em `main` recompila `main` e as branches selecionadas e publica o artifact combinado. Assim a prévia não substitui o conteúdo da release na raiz.
+A cada push em qualquer branch que não seja `main`, o workflow de validação compila a branch sem permissões de publicação. Quando termina, o workflow confiável definido em `main` busca todas as branches remotas, compila cada uma, combina os builds com a release e publica o site. Se um build falhar, a galeria mostra uma página de estado para essa branch e publica as demais prévias. Se uma branch for removida, o workflow reconstrói a galeria sem ela. Pushes em `main` também regeneram a publicação completa.
+
+Os nomes das branches são preservados no caminho. Por exemplo, `feature/nova-home` fica em `/previews/feature/nova-home/`. Configure **Settings → Pages → GitHub Actions** para ativar a publicação. Para mudanças no processo, consulte as instruções em `AGENTS.md` na raiz.

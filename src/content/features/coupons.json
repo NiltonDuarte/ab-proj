@@ -4,9 +4,9 @@
   "icon": "ticket",
   "label": "CUPONS",
   "title": "Vantagens para membros",
-  "description": "Descontos especiais de parceiros em produtos, serviços e experiências.",
-  "detail": "Ofertas confirmadas e disponíveis para membros do clube.",
-  "emptyState": "Nenhum cupom ativo no momento. As ofertas entram aqui quando forem confirmadas com os parceiros.",
+  "description": "Benefícios e ofertas de marcas parceiras serão publicados após confirmação.",
+  "detail": "Vantagens compartilhadas com a comunidade EleVa.",
+  "emptyState": "As condições de cada parceria serão divulgadas quando estiverem confirmadas.",
   "items": [],
-  "action": "Ver cupons disponíveis"
+  "action": "Consultar benefícios"
 }

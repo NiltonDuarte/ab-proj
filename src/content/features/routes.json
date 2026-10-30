@@ -3,10 +3,19 @@
   "category": "movimento",
   "icon": "pin",
   "label": "CORRIDA",
-  "title": "Lugares para correr",
-  "description": "Parques, orlas e percursos compartilhados por quem corre na sua cidade.",
-  "detail": "Parques, orlas e pistas indicados por corredoras.",
-  "emptyState": "Ainda não há rotas cadastradas. Sugira um lugar seguro e agradável para correr na sua cidade.",
-  "items": [],
-  "action": "Sugerir um lugar"
+  "title": "Percursos do Rio",
+  "description": "Locais icônicos para correr ao ar livre com a comunidade EleVa.",
+  "detail": "Lagoa Rodrigo de Freitas, parques e orla, com ritmos variados.",
+  "emptyState": "As rotas e orientações de cada edição são confirmadas pela organização.",
+  "items": [
+    {
+      "id": "lagoa-rodrigo-de-freitas",
+      "name": "Lagoa Rodrigo de Freitas",
+      "city": "Rio de Janeiro",
+      "type": "Percurso ao ar livre",
+      "distance": "Definida a cada edição",
+      "notes": "Local mencionado no portfólio do EleVa. Consulte a organização para o ponto de encontro, percurso e horário da próxima edição."
+    }
+  ],
+  "action": "Perguntar sobre a próxima edição"
 }

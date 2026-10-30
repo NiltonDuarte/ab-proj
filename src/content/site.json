@@ -1,92 +1,91 @@
 {
-  "brand": "Corre, Mana",
-  "shortBrand": "corre, mana",
-  "instagram": "@corremana",
+  "brand": "EleVa",
+  "shortBrand": "EleVa",
+  "instagram": "@_e.l.e.v.a",
   "hero": {
-    "eyebrow": "SEU PRÓXIMO PASSO COMEÇA AQUI",
-    "title": "Mais que correr.",
-    "emphasis": "Conectar.",
-    "description": "Um espaço feito por mulheres, para mulheres que querem se movimentar, fazer novas amizades e descobrir até onde podem chegar.",
-    "primaryAction": "Encontre seu grupo",
-    "secondaryAction": "Conheça a comunidade",
-    "photoCaption": "Juntas, no nosso ritmo.",
-    "photoSubcaption": "Desde o primeiro passo",
-    "photoAlt": "Quatro mulheres correndo juntas ao ar livre",
-    "image": "images/elas-correndo-juntas.png",
-    "photoNote": "VEM COMO VOCÊ É",
-    "proofTitle": "Uma comunidade inteira",
-    "proofSubtitle": "para correr no seu ritmo",
-    "proofRating": "★★★★★"
+    "eyebrow": "MULHERES QUE SE ELEVAM JUNTAS",
+    "title": "Movimento com",
+    "emphasis": "intenção.",
+    "description": "O EleVa reúne mulheres no Rio para correr ao ar livre, compartilhar cuidado e construir conexões que continuam entre os encontros.",
+    "primaryAction": "Participar da próxima edição",
+    "secondaryAction": "Acompanhe no Instagram",
+    "photoCaption": "Mulheres que se elevam juntas.",
+    "photoSubcaption": "Rio de Janeiro · RJ",
+    "photoAlt": "Mulheres da comunidade EleVa reunidas após uma corrida",
+    "image": "images/eleva-encontro.jpg",
+    "photoNote": "CORPO · MENTE · CONEXÃO",
+    "proofTitle": "Encontros mensais",
+    "proofSubtitle": "corrida, cuidado e novas conexões"
   },
   "ticker": [
-    "CORREMOS JUNTAS",
-    "FAZEMOS AMIZADES",
-    "CELEBRAMOS CADA PASSO",
-    "NO NOSSO RITMO"
+    "CORPO",
+    "MENTE",
+    "CONEXÃO",
+    "MULHERES QUE SE ELEVAM JUNTAS"
   ],
   "about": {
-    "eyebrow": "UM LUGAR PARA VOCÊ",
-    "title": "O melhor pace é",
-    "emphasis": "aquele que tem companhia.",
-    "description": "A gente acredita que correr fica mais leve quando é compartilhado. Aqui, cada encontro vira uma história, cada quilômetro aproxima e todo começo merece ser celebrado.",
+    "eyebrow": "NOSSO PROPÓSITO",
+    "title": "Mais do que correr,",
+    "emphasis": "é se reconectar.",
+    "description": "Criado por Andrezza Bonfim com a nutricionista Nathália Pinna, o EleVa transforma a corrida ao ar livre em uma experiência coletiva de autocuidado, acolhimento e evolução.",
     "values": [
       {
-        "title": "Sem pressão",
-        "description": "Respeitamos o seu tempo, seu corpo e seu caminho."
+        "title": "Corpo",
+        "description": "Movimento ao ar livre no seu ritmo, celebrando cada conquista."
       },
       {
-        "title": "Juntas é melhor",
-        "description": "Uma comunidade acolhedora, onde ninguém fica para trás."
+        "title": "Mente",
+        "description": "Presença, leveza e evolução sem pressão."
       },
       {
-        "title": "Movimento que inspira",
-        "description": "Pequenos passos também são grandes conquistas."
+        "title": "Conexão",
+        "description": "Amizades genuínas e uma comunidade que acolhe e inspira."
       }
     ]
   },
   "community": {
-    "eyebrow": "SEU LUGAR É AQUI",
-    "title": "Uma comunidade.",
-    "emphasis": "Mil novos motivos.",
-    "description": "Receba incentivo, dicas e convites para correr por aí com mulheres incríveis.",
-    "meetingFrequency": "1 encontro presencial todo mês",
-    "promise": "Sem pressão. Sem pace obrigatório. Só boas companhias.",
-    "action": "Quero fazer parte",
+    "eyebrow": "UMA VEZ POR MÊS, JUNTAS",
+    "title": "Cada edição,",
+    "emphasis": "um ritual completo.",
+    "description": "Corrida ao ar livre, café da manhã social, orientação nutricional e boas conversas. Cada mulher encontra seu lugar, independente do ritmo.",
+    "meetingFrequency": "Encontro presencial mensal no Rio de Janeiro",
+    "promise": "Lagoa, parques e orla. A gente vai no seu ritmo.",
+    "action": "Conversar sobre a próxima edição",
     "meetingNumber": "1x",
-    "meetingDescription": "encontro presencial todo mês",
+    "meetingDescription": "encontro presencial por mês",
     "friendshipStat": "∞",
-    "friendshipDescription": "amizades que começam no caminho"
+    "friendshipDescription": "conexões que seguem entre as edições"
   },
   "quote": {
-    "text": "Você não precisa ir rápido.",
-    "emphasis": "Só precisa ir com a gente.",
-    "byline": "COM CARINHO, CORRE, MANA",
+    "text": "Mais do que correr,",
+    "emphasis": "é se reconectar.",
+    "byline": "CORPO · MENTE · CONEXÃO",
     "mark": "“"
   },
   "footer": {
-    "message": "Feito de mulheres, para mulheres.",
-    "copyright": "© 2026 Corre, Mana"
+    "message": "Mulheres que se elevam juntas.",
+    "copyright": "© 2026 EleVa · Rio de Janeiro"
   },
   "navigation": {
-    "about": "A comunidade",
+    "about": "O propósito",
     "experiences": "Experiências",
-    "features": "O clube",
-    "memberAction": "Já faço parte",
-    "joinAction": "Quero correr junto",
+    "features": "O que oferecemos",
+    "memberAction": "Instagram",
+    "joinAction": "Fale com a EleVa",
     "menuOpen": "Abrir menu",
     "menuClose": "Fechar menu"
   },
   "experienceSection": {
-    "eyebrow": "A VIDA ACONTECE EM MOVIMENTO",
-    "title": "Tem sempre algo",
-    "emphasis": "te esperando.",
-    "action": "Ver todas as experiências"
+    "eyebrow": "EXPERIÊNCIAS ELEVA",
+    "title": "Cada edição,",
+    "emphasis": "um ritual completo.",
+    "action": "Fale com a EleVa"
   },
   "featureSection": {
-    "eyebrow": "O CLUBE POR DENTRO",
-    "title": "Seu próximo passo",
-    "emphasis": "tem companhia.",
-    "description": "Conteúdo e vantagens para acompanhar você antes, durante e depois da corrida.",
+    "eyebrow": "CORPO · MENTE · CONEXÃO",
+    "title": "Um ecossistema",
+    "emphasis": "de bem-estar.",
+    "description": "Encontros presenciais, cuidado nutricional e uma comunidade ativa entre cada edição.",
     "filters": [
       {
         "id": "all",
@@ -106,15 +105,5 @@
       }
     ]
   },
-  "form": {
-    "eyebrow": "VEM COM A GENTE",
-    "title": "Seu próximo passo começa",
-    "emphasis": "aqui.",
-    "description": "Deixa seu e-mail para receber novidades, dicas e o convite do próximo encontro.",
-    "emailLabel": "Seu melhor e-mail",
-    "emailPlaceholder": "voce@email.com",
-    "submit": "Quero entrar",
-    "helper": "Versão estática: seu e-mail ainda não fica salvo.",
-    "success": "Obrigada! A inscrição ainda não é armazenada nesta versão estática."
-  }
+  "whatsappNumber": "5521997043280"
 }

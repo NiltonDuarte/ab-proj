@@ -1,9 +1,10 @@
-name: Validate feature branch
+name: Validate preview branch
 
 on:
   push:
     branches:
-      - 'feature/**'
+      - '**'
+      - '!main'
 
 permissions:
   contents: read
@@ -12,7 +13,7 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out feature branch
+      - name: Check out branch
         uses: actions/checkout@v4
         with:
           persist-credentials: false
@@ -25,5 +26,5 @@ jobs:
         run: npm ci
       - name: Validate content files
         run: npm run content -- validate
-      - name: Build feature branch
+      - name: Build branch
         run: npm run build

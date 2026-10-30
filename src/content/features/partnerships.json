@@ -3,10 +3,10 @@
   "category": "vantagens",
   "icon": "heart",
   "label": "PARCERIAS",
-  "title": "Marcas que correm com a gente",
-  "description": "Conheça negócios e profissionais parceiros que apoiam mulheres em movimento.",
-  "detail": "Bem-estar, esporte e encontros locais.",
-  "emptyState": "Estamos construindo parcerias. Os nomes e condições serão publicados após confirmação.",
+  "title": "Parcerias com propósito",
+  "description": "O EleVa recebe marcas e profissionais de gastronomia, lifestyle, wellness, moda e esporte alinhados à saúde e à conexão feminina.",
+  "detail": "Ativações e experiências compartilhadas nas edições mensais.",
+  "emptyState": "Conheça oportunidades de ativação de marca, experiências exclusivas e conteúdo. Os formatos são combinados com a organização.",
   "items": [],
-  "action": "Conhecer parceiros"
+  "action": "Conversar sobre parcerias"
 }
