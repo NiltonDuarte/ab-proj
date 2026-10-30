@@ -141,7 +141,7 @@ jobs:
 
   deploy:
     needs: [prepare, assemble-pages]
-    if: needs.assemble-pages.result == 'success'
+    if: always() && needs.prepare.result == 'success' && needs.assemble-pages.result == 'success'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
