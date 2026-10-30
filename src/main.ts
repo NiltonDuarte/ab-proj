@@ -27,7 +27,7 @@ function renderValue(value: {title:string;description:string}, index:number) {
   return `<div class="value"><span class="value-number">0${index+1}</span><div><h3>${esc(value.title)}</h3><p>${esc(value.description)}</p></div></div>`
 }
 function renderExperience(item: (typeof experienceContent)[number], index:number) {
-  return `<article class="experience-card"><div class="experience-image" data-image="${esc(item.image)}" role="img" aria-label="${esc(item.imageAlt)}"><span class="image-tag">${esc(item.tag)}</span><span class="image-number">0${index+1}</span></div><div class="experience-info"><div><h3>${esc(item.title)}</h3><p>${esc(item.description)}</p></div><a href="${whatsappHref}" target="_blank" rel="noreferrer" aria-label="${esc(site.experienceSection.action)}: ${esc(item.title)}">${icon('arrow')}</a></div></article>`
+  return `<article class="experience-card"><div class="experience-image" data-image="${esc(item.image)}" data-image-position="${esc(item.imagePosition ?? 'center')}" role="img" aria-label="${esc(item.imageAlt)}"><span class="image-tag">${esc(item.tag)}</span><span class="image-number">0${index+1}</span></div><div class="experience-info"><div><h3>${esc(item.title)}</h3><p>${esc(item.description)}</p></div><a href="${whatsappHref}" target="_blank" rel="noreferrer" aria-label="${esc(site.experienceSection.action)}: ${esc(item.title)}">${icon('arrow')}</a></div></article>`
 }
 function renderEntry(feature: Feature, entry: FeatureEntry): string {
   if (feature.id === 'home-workouts') {
@@ -84,7 +84,7 @@ app.innerHTML = `
 
 const heroPhoto = document.querySelector<HTMLElement>('.hero-photo')
 if (heroPhoto) heroPhoto.style.backgroundImage = `url("${baseUrl}${heroPhoto.dataset.heroImage}")`
-document.querySelectorAll<HTMLElement>('.experience-image[data-image]').forEach(el=>{el.style.backgroundImage=`linear-gradient(180deg,#14140b33,transparent 30%,transparent 75%,#15150e28),url("${el.dataset.image}")`})
+document.querySelectorAll<HTMLElement>('.experience-image[data-image]').forEach(el=>{el.style.backgroundImage=`linear-gradient(180deg,#14140b33,transparent 30%,transparent 75%,#15150e28),url("${el.dataset.image}")`;el.style.backgroundPosition=`center,${el.dataset.imagePosition ?? 'center'}`})
 
 const toast = document.querySelector<HTMLElement>('.toast')!
 function announce(message:string) { toast.textContent=message;toast.classList.add('visible');setTimeout(()=>toast.classList.remove('visible'),3500) }

@@ -3,9 +3,10 @@
     "id": "corrida-ao-ar-livre",
     "title": "Corrida ao ar livre",
     "description": "Percursos cariocas para todos os ritmos, em um ambiente acolhedor.",
-    "tag": "RIO DE JANEIRO",
+    "tag": "MOVIMENTO AO AR LIVRE",
     "image": "images/eleva-movimento.jpg",
-    "imageAlt": "Grupo de mulheres da EleVa reunido com roupas esportivas em um encontro ao ar livre"
+    "imageAlt": "Tênis de corrida na areia da praia, com o mar ao fundo",
+    "imagePosition": "center 72%"
   },
   {
     "id": "cafe-da-manha-social",

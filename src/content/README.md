@@ -3,7 +3,7 @@
 A página é compilada como site estático. Os JSON abaixo são importados pelo Vite durante o build; não há banco de dados nem escrita de conteúdo pelo navegador. Edite os arquivos, valide e publique uma nova versão do site.
 
 - `site.json`: marca, hero, apresentação, comunidade, frase e rodapé.
-- `experiences.json`: cards de experiências e respectivos caminhos de imagem.
+- `experiences.json`: cards de experiências e respectivos caminhos de imagem; `imagePosition` ajusta opcionalmente o enquadramento do fundo (por exemplo, `center 72%`).
 - `features/routes.json`: lugares para correr (`id`, `name`, `city`, `type`, `distance`, `notes`).
 - `features/books.json`: indicações de livros (`id`, `name`, `author`, `theme`, `notes`).
 - `features/breakfasts.json`: cafés e brunches (`id`, `name`, `city`, `category`, `priceRange`, `notes`).
