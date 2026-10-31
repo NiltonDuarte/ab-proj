@@ -211,3 +211,17 @@
   .nutrition-entry summary strong{font-size:16px}
   .nutrition-entry>p{font-size:13px;line-height:1.55}
 }
+.section-heading-description{max-width:55ch;margin:10px 0 0;color:#77736b;font-size:13px;line-height:1.7}
+.feature-group-heading{cursor:pointer;list-style:none}
+.feature-group-heading::-webkit-details-marker{display:none}
+.feature-group-heading>span:first-child{display:flex;align-items:baseline;gap:16px;min-width:0}
+.feature-group-toggle{display:grid;place-items:center;flex:none;color:var(--sage);transition:transform .2s}
+.feature-group-toggle .icon{width:18px;height:18px}
+.feature-group[open]>.feature-group-heading .feature-group-toggle{transform:rotate(90deg)}
+.feature-group:not([open])>.feature-group-heading{margin-bottom:0}
+@media(max-width:640px){
+  .section-heading-description{font-size:14px;line-height:1.65;margin-top:12px}
+  .feature-group-heading>span:first-child{display:block}
+  .feature-group-heading{position:relative;padding-right:34px}
+  .feature-group-toggle{position:absolute;right:0;top:2px;width:28px;height:28px}
+}

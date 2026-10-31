@@ -6,7 +6,7 @@
     "eyebrow": "CORPO · MENTE · CONEXÃO",
     "title": "Uma comunidade",
     "emphasis": "para florescer.",
-    "description": "Movimento, autocuidado e boas conexões no seu ritmo. Conheça o piloto digital da EleVa e experimente 7 dias grátis.",
+    "description": "Experimente grátis por 7 dias os conteúdos disponíveis e a comunidade. Os planos mensais e valores ainda estão em definição.",
     "primaryAction": "Quero testar por 7 dias",
     "secondaryAction": "Conheça a comunidade",
     "photoCaption": "Mulheres que se elevam juntas.",
@@ -77,16 +77,17 @@
     "subscriptionAction": "Assinatura"
   },
   "experienceSection": {
-    "eyebrow": "UMA COMUNIDADE, MUITOS JEITOS",
-    "title": "Cuidado que cabe",
-    "emphasis": "na sua rotina.",
+    "eyebrow": "CORRIDA, CONVERSA E CONEXÃO",
+    "title": "Um encontro presencial",
+    "emphasis": "uma vez por mês.",
+    "description": "A comunidade se reúne presencialmente uma vez por mês. A programação e a próxima data são divulgadas nos canais da EleVa.",
     "action": "Quero conhecer"
   },
   "featureSection": {
     "eyebrow": "CONTEÚDO PARA SUA ROTINA",
     "title": "Quatro formas",
     "emphasis": "de se cuidar.",
-    "description": "Explore o que já faz parte da proposta do piloto EleVa. Conteúdos e ofertas são publicados à medida que forem confirmados.",
+    "description": "Abra cada tema para ver os conteúdos e benefícios disponíveis no piloto. Novos itens entram quando forem confirmados.",
     "filters": [
       {
         "id": "all",
