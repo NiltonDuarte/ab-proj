@@ -95,5 +95,5 @@ const menu=document.querySelector<HTMLButtonElement>('.menu-toggle')!
 const nav=document.querySelector<HTMLElement>('.desktop-nav')!
 const closeMenu=()=>{document.body.classList.remove('nav-open');menu.innerHTML=icon('menu');menu.setAttribute('aria-label',site.navigation.menuOpen);menu.setAttribute('aria-expanded','false')}
 menu.addEventListener('click',()=>{if(document.body.classList.contains('nav-open')){closeMenu()}else{document.body.classList.add('nav-open');menu.innerHTML=icon('close');menu.setAttribute('aria-label',site.navigation.menuClose);menu.setAttribute('aria-expanded','true')}})
-document.addEventListener('click',event=>{if(document.body.classList.contains('nav-open')&&!nav.contains(event.target as Node)&&!menu.contains(event.target as Node)){closeMenu()}})
+document.addEventListener('click',event=>{const path=event.composedPath();if(document.body.classList.contains('nav-open')&&!path.includes(nav)&&!path.includes(menu)){closeMenu()}})
 nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu))

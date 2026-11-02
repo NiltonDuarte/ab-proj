@@ -275,3 +275,10 @@
 @media(max-width:640px){
   .nav-open .desktop-nav{position:fixed;top:64px;left:0;right:0}
 }
+@media(max-width:640px){
+  .nav-open .topbar{backdrop-filter:none}
+  .nav-open .desktop-nav{position:fixed;top:64px;left:0;right:0}
+  .features-heading,.feature-filters{width:100%;max-width:100%;min-width:0}
+  .feature-filters{flex-wrap:wrap;overflow:visible;justify-content:flex-start;}
+  .feature-filters .filter-chip{flex:0 1 auto;max-width:100%;white-space:normal;}
+}
