@@ -7,6 +7,7 @@
 - Não invente recomendações locais, parcerias ou descontos. Mantenha a nutrição como conteúdo geral e educativo.
 - Preserve `base: './'` em `vite.config.ts`: os builds da release e das branches são servidos em caminhos diferentes.
 - Após alterar arquivos de conteúdo, rode `npm run content -- validate`; após alterar o renderer ou configurações Vite, rode também `npm run build`.
+- Não inclua uma seção intitulada “Validação” na descrição de pull requests.
 
 ## Páginas de preview no GitHub Pages
 
