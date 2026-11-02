@@ -6,16 +6,16 @@
     "eyebrow": "CORPO · MENTE · CONEXÃO",
     "title": "Uma comunidade",
     "emphasis": "para florescer.",
-    "description": "Movimento, autocuidado e boas conexões no seu ritmo. Conheça o piloto digital da EleVa e experimente 7 dias grátis.",
-    "primaryAction": "Quero testar por 7 dias",
-    "secondaryAction": "Conheça a comunidade",
+    "description": "Movimento, autocuidado e boas conexões para mulheres que querem se elevar juntas.",
+    "primaryAction": "Quero fazer parte",
+    "secondaryAction": "Conheça o Eleva",
     "photoCaption": "Mulheres que se elevam juntas.",
     "photoSubcaption": "Rio de Janeiro · RJ",
     "photoAlt": "Grupo de mulheres da EleVa reunido em um encontro ao ar livre",
     "image": "images/eleva-hero-comunidade.jpg",
     "photoNote": "CORPO · MENTE · CONEXÃO",
-    "proofTitle": "Piloto de assinatura",
-    "proofSubtitle": "7 dias gratuitos para começar"
+    "proofTitle": "Corpo · mente · conexão",
+    "proofSubtitle": "Mulheres que se elevam juntas"
   },
   "ticker": [
     "CORPO",
@@ -24,10 +24,10 @@
     "MULHERES QUE SE ELEVAM JUNTAS"
   ],
   "about": {
-    "eyebrow": "O PILOTO ELEVA",
+    "eyebrow": "SOBRE O ELEVA",
     "title": "Seu espaço para",
     "emphasis": "cuidar de você.",
-    "description": "Uma comunidade para mulheres que querem se movimentar, fazer amizades e encontrar inspiração para uma rotina mais leve. O piloto reúne conteúdos práticos e benefícios em um só lugar.",
+    "description": "Uma comunidade de mulheres que se conecta por meio do movimento, do autocuidado e de experiências compartilhadas. Um espaço de acolhimento, novas amizades e inspiração para florescer no seu próprio ritmo.",
     "values": [
       {
         "title": "Nutricional",
@@ -44,17 +44,17 @@
     ]
   },
   "community": {
-    "eyebrow": "EXPERIMENTE A ELEVA",
-    "title": "Sete dias para",
+    "eyebrow": "FAÇA PARTE DO ELEVA",
+    "title": "Um espaço para",
     "emphasis": "se elevar juntas.",
-    "description": "Conheça os conteúdos e benefícios do piloto sem custo por 7 dias. Depois, escolha com calma como quer continuar.",
-    "meetingFrequency": "Acesso inicial gratuito por 7 dias",
-    "promise": "Sem pressão. Movimento com leveza, no seu ritmo.",
-    "action": "Começar meu teste grátis",
+    "description": "Movimento, acolhimento e conexões reais entre mulheres.",
+    "meetingFrequency": "Conexão e acolhimento",
+    "promise": "Amizades reais que continuam entre uma edição e outra.",
+    "action": "Faça parte do Eleva",
     "meetingNumber": "7",
-    "meetingDescription": "dias gratuitos no piloto",
-    "friendshipStat": "3",
-    "friendshipDescription": "planos mensais em estruturação"
+    "meetingDescription": "movimento no seu ritmo",
+    "friendshipStat": "∞",
+    "friendshipDescription": "conexões que continuam"
   },
   "quote": {
     "text": "Mais do que correr,",
@@ -67,14 +67,16 @@
     "copyright": "© 2026 EleVa · Mulheres que se elevam juntas"
   },
   "navigation": {
-    "about": "O piloto",
-    "experiences": "Como funciona",
-    "features": "Conteúdos",
-    "memberAction": "Instagram",
-    "joinAction": "Testar grátis",
+    "about": "Sobre o Eleva",
+    "experiences": "Experiências",
+    "features": "Parcerias",
+    "memberAction": "Depoimentos",
+    "joinAction": "Faça parte do Eleva",
     "menuOpen": "Abrir menu",
     "menuClose": "Fechar menu",
-    "subscriptionAction": "Assinatura"
+    "subscriptionAction": "Parcerias",
+    "partnerAction": "Seja um parceiro",
+    "testimonialsUrl": "https://www.instagram.com/stories/highlights/17901518763563915/"
   },
   "experienceSection": {
     "eyebrow": "UMA COMUNIDADE, MUITOS JEITOS",
@@ -86,7 +88,7 @@
     "eyebrow": "CONTEÚDO PARA SUA ROTINA",
     "title": "Quatro formas",
     "emphasis": "de se cuidar.",
-    "description": "Explore o que já faz parte da proposta do piloto EleVa. Conteúdos e ofertas são publicados à medida que forem confirmados.",
+    "description": "Conheça as iniciativas e descubra como construir novas conexões com o Eleva.",
     "filters": [
       {
         "id": "all",
@@ -133,31 +135,5 @@
     ]
   },
   "whatsappNumber": "5521997043280",
-  "subscriptionSection": {
-    "eyebrow": "ASSINATURA ELEVA",
-    "title": "Comece pelo",
-    "emphasis": "piloto gratuito.",
-    "description": "O acesso inicial dura 7 dias e não tem custo. Os três planos mensais estão em estruturação; valores e benefícios serão apresentados quando estiverem definidos.",
-    "trialLabel": "7 DIAS GRÁTIS",
-    "trialTitle": "Experimente o piloto",
-    "trialDescription": "Conheça os conteúdos e benefícios disponíveis na comunidade EleVa.",
-    "trialAction": "Quero participar do piloto",
-    "plans": [
-      {
-        "name": "Plano mensal 01",
-        "status": "EM DEFINIÇÃO",
-        "description": "Nome, benefícios e valor serão divulgados em breve."
-      },
-      {
-        "name": "Plano mensal 02",
-        "status": "EM DEFINIÇÃO",
-        "description": "Nome, benefícios e valor serão divulgados em breve."
-      },
-      {
-        "name": "Plano mensal 03",
-        "status": "EM DEFINIÇÃO",
-        "description": "Nome, benefícios e valor serão divulgados em breve."
-      }
-    ]
-  }
+  "partnerSection": {"action": "Seja um parceiro"}
 }
