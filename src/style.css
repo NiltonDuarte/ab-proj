@@ -244,3 +244,31 @@
 @media(max-width:640px){
   .quote-flower{width:72px;right:4%;bottom:-18px}
 }
+
+@media(max-width:640px){
+  body.nav-open::before{
+    content:'';
+    position:fixed;
+    inset:64px 0 0;
+    z-index:4;
+    background:rgba(26,26,26,.42);
+    backdrop-filter:blur(2px);
+  }
+  .nav-open .desktop-nav{
+    z-index:6;
+    padding:10px 22px 14px;
+    background:#fffdf8;
+    border:1px solid #ded7ca;
+    border-top:0;
+    border-radius:0 0 14px 14px;
+    box-shadow:0 16px 34px rgba(26,26,26,.18);
+  }
+  .nav-open .menu-toggle{
+    color:white;
+    background:var(--olive);
+    border-radius:50%;
+  }
+  .menu-toggle{border-radius:50%;transition:background .2s,color .2s,transform .2s}
+  .menu-toggle:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+  .nav-open .menu-toggle .icon{transform:rotate(90deg)}
+}
