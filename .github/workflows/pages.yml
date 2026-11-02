@@ -23,6 +23,7 @@ jobs:
     permissions:
       contents: read
       pages: read
+      pull-requests: read
     outputs:
       matrix: ${{ steps.branches.outputs.matrix }}
       has_previews: ${{ steps.branches.outputs.has_previews }}
@@ -38,6 +39,8 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Discover all remote branches except main
         id: branches
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/resolve-preview-branches.mjs
 
   build-release:
