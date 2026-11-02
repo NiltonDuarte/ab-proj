@@ -272,3 +272,6 @@
   .menu-toggle:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
   .nav-open .menu-toggle .icon{transform:rotate(90deg)}
 }
+@media(max-width:640px){
+  .nav-open .desktop-nav{position:fixed;top:64px;left:0;right:0}
+}
