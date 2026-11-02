@@ -219,3 +219,10 @@ h1{font-size:clamp(48px,6.2vw,76px)}
 .experience-info p{font-size:12px;line-height:1.55}
 .feature-card>p{font-size:12px;line-height:1.7}
 @media(max-width:640px){h1{font-size:clamp(42px,11vw,50px)}.intro h2,.section-heading h2,.features-heading h2{font-size:clamp(31px,8.5vw,36px)}}
+.about-quote{margin:42px 0 26px;padding:20px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-family:var(--serif);font-size:clamp(25px,3.2vw,38px);color:var(--sage);text-align:center}
+.about-people{display:flex;gap:48px;justify-content:center;text-align:center}
+.about-people span,.about-people strong{display:block}
+.about-people span{font-size:9px;letter-spacing:1.4px;text-transform:uppercase;color:#858174;margin-bottom:6px}
+.about-people strong{font-family:var(--serif);font-size:18px;font-weight:500}
+.intro-text p{white-space:normal}
+@media(max-width:640px){.about-quote{margin:28px 0 22px}.about-people{gap:24px}.about-people strong{font-size:16px}}

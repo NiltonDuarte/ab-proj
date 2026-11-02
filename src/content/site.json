@@ -25,9 +25,14 @@
   ],
   "about": {
     "eyebrow": "SOBRE O ELEVA",
-    "title": "Seu espaço para",
-    "emphasis": "cuidar de você.",
-    "description": "Uma comunidade de mulheres que se conecta por meio do movimento, do autocuidado e de experiências compartilhadas. Um espaço de acolhimento, novas amizades e inspiração para florescer no seu próprio ritmo.",
+    "title": "Uma história que nasceu",
+    "emphasis": "do movimento.",
+    "description": "O Eleva nasceu da rotina de corrida ao ar livre de Andrezza Bonfim. Sem planejamento, apenas com autenticidade, ela foi inspirando outras mulheres pelo movimento, pela leveza e pelos hábitos saudáveis que construía dia a dia.\n\nCom o tempo, algumas mulheres começaram a pedir para correr junto com ela. Esse simples pedido acendeu um desejo maior: criar um espaço de conexão, acolhimento e evolução, onde o autocuidado se transforma em experiência coletiva.\n\nE assim, o sonho cresceu em parceria. A nutricionista Nathália Pinna se juntou ao projeto, fortalecendo o propósito do Eleva com ciência, cuidado e olhar humano.",
+    "quote": "Nada grandioso se constrói sozinha.",
+    "people": [
+      {"role":"Idealizadora","name":"Andrezza Bonfim"},
+      {"role":"Nutricionista","name":"Nathália Pinna"}
+    ],
     "values": [
       {
         "title": "Nutricional",
