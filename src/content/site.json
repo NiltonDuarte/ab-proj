@@ -33,6 +33,15 @@
       {"role":"Idealizadora","name":"Andrezza Bonfim"},
       {"role":"Nutricionista","name":"Nathália Pinna"}
     ],
+    "purposeTitle": "Movimento com intenção",
+    "purposeLead": "Mais do que correr, é se reconectar.",
+    "purposeQuote": "O Eleva existe para que cada mulher descubra o que é capaz quando não está sozinha.",
+    "pillars": [
+      {"title":"Corpo","description":"Movimento ao ar livre, respeitando o ritmo individual e celebrando cada conquista."},
+      {"title":"Mente","description":"Presença, leveza e evolução sem pressão. Cada uma no seu tempo e processo."},
+      {"title":"Conexão","description":"Pertencimento real, amizades genuínas e uma comunidade que acolhe e inspira."}
+    ],
+    "valuesList": ["Acolhimento", "Autenticidade", "Evolução", "Liberdade", "Presença"],
     "values": [
       {
         "title": "Nutricional",
@@ -84,16 +93,32 @@
     "testimonialsUrl": "https://www.instagram.com/stories/highlights/17901518763563915/"
   },
   "experienceSection": {
-    "eyebrow": "UMA COMUNIDADE, MUITOS JEITOS",
-    "title": "Cuidado que cabe",
-    "emphasis": "na sua rotina.",
+    "eyebrow": "EXPERIÊNCIAS ELEVA",
+    "title": "Cada edição,",
+    "emphasis": "um ritual completo.",
     "action": "Quero conhecer"
   },
   "featureSection": {
-    "eyebrow": "CONTEÚDO PARA SUA ROTINA",
-    "title": "Quatro formas",
-    "emphasis": "de se cuidar.",
-    "description": "Conheça as iniciativas e descubra como construir novas conexões com o Eleva.",
+    "eyebrow": "PARCERIAS & PROFISSIONAIS",
+    "title": "Um ecossistema",
+    "emphasis": "de bem-estar.",
+    "description": "O Eleva está aberto a parcerias, colaborações e apoios que compartilhem o compromisso com saúde, movimento e conexão feminina genuína.",
+    "partnershipIntro": "Profissionais e marcas que compartilham o mesmo propósito.",
+    "opportunitiesTitle": "Oportunidades para marcas",
+    "opportunities": [
+      {"title":"Ativações de marca","description":"Presença no evento e contato direto com o público."},
+      {"title":"Criação de conteúdo","description":"Fotos e vídeos em locais icônicos do Rio, com estética editorial."},
+      {"title":"Posicionamento orgânico","description":"Associação autêntica com saúde, movimento e comunidade feminina."},
+      {"title":"Comunidade em crescimento","description":"Participantes que retornam e compartilham a experiência."},
+      {"title":"Experiências exclusivas","description":"Co-criação de experiências, kits, café da manhã e conexão."},
+      {"title":"Visibilidade contínua","description":"Presença no Instagram, no grupo de WhatsApp e nos materiais do evento."}
+    ],
+    "partnerCategories": [
+      {"title":"Lifestyle & wellness","items":["Terapeutas", "Psicólogos", "Coaches"]},
+      {"title":"Moda & esporte","items":["Marcas de moda esportiva", "Acessórios wellness"]},
+      {"title":"Gastronomia","items":["Cafés parceiros", "Produtos saudáveis"]},
+      {"title":"Ativação de marca","items":["Patrocinadores", "Marcas premium", "Investidores"]}
+    ],
     "filters": [
       {
         "id": "all",

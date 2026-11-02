@@ -1,27 +1,27 @@
 [
   {
     "id": "conexao-e-acolhimento",
-    "title": "Conexão e acolhimento",
-    "description": "Amizades reais que continuam entre uma edição e outra.",
+    "title": "Networking feminino",
+    "description": "Uma comunidade que continua entre as edições, com amizades reais construídas no movimento e na conexão genuína.",
     "tag": "CONEXÃO GENUÍNA",
     "image": "images/eleva-encontro.jpg",
     "imageAlt": "Grupo de mulheres da EleVa reunido em um encontro ao ar livre"
   },
   {
-    "id": "cafe-da-manha-social",
-    "title": "Café da manhã social",
-    "description": "Um momento para compartilhar, conversar e fortalecer conexões.",
-    "tag": "DEPOIS DA CORRIDA",
-    "image": "images/eleva-cafe-da-carol.jpg",
-    "imageAlt": "Fachada do Café da Carol, espaço de encontro da comunidade"
-  },
-  {
     "id": "corrida-ao-ar-livre",
     "title": "Corrida ao ar livre",
-    "description": "Percursos pela Zona Sul carioca, respeitando o seu ritmo.",
+    "description": "Percursos em locais icônicos do Rio, como Lagoa Rodrigo de Freitas, parques e orla, com ritmos variados e ambiente acolhedor.",
     "tag": "MOVIMENTO AO AR LIVRE",
     "image": "images/eleva-movimento.jpg",
     "imageAlt": "Tênis de corrida na areia da praia, com o mar ao fundo",
     "imagePosition": "center 72%"
+  },
+  {
+    "id": "cafe-da-manha-social",
+    "title": "Café da manhã social",
+    "description": "Depois da corrida: alimentação saudável, boas conversas e a leveza de quem fez algo bom por si mesma.",
+    "tag": "DEPOIS DA CORRIDA",
+    "image": "images/eleva-cafe-da-carol.jpg",
+    "imageAlt": "Café da manhã compartilhado pelas participantes depois da corrida"
   }
 ]

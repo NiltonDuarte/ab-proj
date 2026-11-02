@@ -6,8 +6,11 @@
 - Use `npm run content -- list`, `show`, `add`, `edit`, `remove` e `validate` para manter listas. Consulte `src/content/README.md` para os esquemas e campos obrigatórios.
 - Não invente recomendações locais, parcerias ou descontos. Mantenha a nutrição como conteúdo geral e educativo.
 - Preserve `base: './'` em `vite.config.ts`: os builds da release e das branches são servidos em caminhos diferentes.
+- Todo layout deve ser responsivo para desktop e celular; confira os breakpoints e evite overflow horizontal em telas pequenas.
 - Após alterar arquivos de conteúdo, rode `npm run content -- validate`; após alterar o renderer ou configurações Vite, rode também `npm run build`.
+- Em worktrees sem `node_modules/`, rode `make install` antes do build; esse alvo executa `npm ci` usando o `package-lock.json`. Depois rode `make build` (ou `npm run build`). Se o build retornar `tsc: Permission denied`, confira se `node_modules/` existe; se não existir, execute `make install` e tente novamente.
 - Não inclua uma seção intitulada “Validação” na descrição de pull requests.
+- Cada alteração concluída deve ser registrada em um commit e enviada com `git push` para a branch de trabalho atual.
 
 ## Páginas de preview no GitHub Pages
 
