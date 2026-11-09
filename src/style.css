@@ -350,9 +350,10 @@
 @media(max-width:720px){.about-story-heading h2{max-width:16ch;font-size:clamp(32px,8vw,40px)}.about-highlight blockquote{font-size:clamp(23px,6vw,29px)}}
 
 /* Stack the story heading above its copy on desktop and mobile. */
-.about-story{grid-template-columns:minmax(0,760px);gap:24px}
+.about-story{grid-template-columns:minmax(0,1fr);gap:24px}
 .about-story-heading h2{max-width:none}
-.about-story-copy{max-width:760px}
+.about-story-copy{max-width:none}
+.purpose-quote{max-width:none;width:100%}
 .purpose-heading{display:block}
 .purpose-grid .purpose-card{text-align:center;padding:24px 22px}
 .purpose-grid .purpose-card+ .purpose-card{padding-left:22px}
