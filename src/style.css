@@ -366,3 +366,4 @@
 
 /* Let partnership copy use the full section width; wrap only when the viewport requires it. */
 .features-heading>div:first-child>p,.opportunities-heading>p{width:100%;max-width:none;text-wrap:initial}
+.about-story-copy strong{font-weight:700;color:var(--ink)}
