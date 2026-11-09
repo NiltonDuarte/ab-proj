@@ -353,3 +353,9 @@
 .about-story{grid-template-columns:minmax(0,760px);gap:24px}
 .about-story-heading h2{max-width:none}
 .about-story-copy{max-width:760px}
+.purpose-heading{display:block}
+.purpose-grid .purpose-card{text-align:center;padding:24px 22px}
+.purpose-grid .purpose-card+ .purpose-card{padding-left:22px}
+.purpose-card>span,.opportunities-grid article>span{display:none}
+.opportunities-grid article{text-align:left}
+@media(max-width:720px){.purpose-grid .purpose-card,.purpose-grid .purpose-card+ .purpose-card{padding:18px 4px}}
