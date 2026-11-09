@@ -80,6 +80,10 @@ app.innerHTML = `
 </main><footer class="footer"><a class="brand footer-brand" href="#inicio"><span class="brand-mark"><img src="${baseUrl}images/eleva-lotus-mark.png" alt="" aria-hidden="true"></span><span>${esc(site.shortBrand)}</span></a><span>${esc(site.footer.message)} <b>♥</b></span>${site.instagram?`<a class="instagram" href="${instagramHref}" target="_blank" rel="noreferrer">${icon('instagram')} ${esc(site.instagram)}</a>`:''}<small>${esc(site.footer.copyright)}</small></footer>
 <div class="toast" role="status" aria-live="polite"></div>`
 
+document.querySelectorAll<HTMLElement | SVGElement>('#app, #app *').forEach((element, index) => {
+  element.dataset.elementId = `eleva-${String(index + 1).padStart(3, '0')}`
+})
+
 const heroPhoto = document.querySelector<HTMLElement>('.hero-photo')
 if (heroPhoto) heroPhoto.style.backgroundImage = `url("${baseUrl}${heroPhoto.dataset.heroImage}")`
 document.querySelectorAll<HTMLElement>('.experience-image[data-image]').forEach(el=>{el.style.backgroundImage=`linear-gradient(180deg,#14140b33,transparent 30%,transparent 75%,#15150e28),url("${el.dataset.image}")`;el.style.backgroundPosition=`center,${el.dataset.imagePosition ?? 'center'}`})
