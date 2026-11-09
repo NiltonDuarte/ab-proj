@@ -12,9 +12,9 @@
     "title": "Corrida ao ar livre",
     "description": "Percursos em locais icônicos do Rio, como Lagoa Rodrigo de Freitas, parques e orla, com ritmos variados e ambiente acolhedor.",
     "tag": "MOVIMENTO AO AR LIVRE",
-    "image": "images/eleva-movimento.jpg",
-    "imageAlt": "Tênis de corrida na areia da praia, com o mar ao fundo",
-    "imagePosition": "center 72%"
+    "image": "images/eleva-corrida-ao-ar-livre.jpeg",
+    "imageAlt": "Mulher se alongando ao ar livre com as montanhas do Rio ao fundo",
+    "imagePosition": "center 50%"
   },
   {
     "id": "cafe-da-manha-social",
