@@ -362,3 +362,6 @@
 .features-heading>div:first-child>p{max-width:460px;text-wrap:balance}
 .opportunities-heading>p{max-width:660px;text-wrap:balance}
 @media(max-width:640px){.features-heading>div:first-child>p,.opportunities-heading>p{max-width:100%;text-wrap:pretty}}
+
+/* Let partnership copy use the full section width; wrap only when the viewport requires it. */
+.features-heading>div:first-child>p,.opportunities-heading>p{width:100%;max-width:none;text-wrap:initial}
