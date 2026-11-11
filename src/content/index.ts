@@ -8,8 +8,10 @@ import challenges from './features/challenges.json'
 import nutrition from './features/nutrition.json'
 import partnerships from './features/partnerships.json'
 import coupons from './features/coupons.json'
+import playlists from './playlists.json'
 import type { Feature } from './types'
 
 export const pageContent = site
 export const experienceContent = experiences
 export const featureContent = [nutrition, workouts, challenges, partnerships, coupons, breakfasts, routes, books] as unknown as Feature[]
+export const playlistContent = playlists
