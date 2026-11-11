@@ -1,0 +1,22 @@
+{
+  "title": "Loja EleVa",
+  "eyebrow": "CURADORIA ELEVA",
+  "description": "Uma seleção de beleza, vitaminas e suplementos para você explorar no Mercado Livre.",
+  "disclosure": "Os links levam a páginas externas do Mercado Livre. Confira informações, preços e condições diretamente na loja.",
+  "categories": [
+    {
+      "id": "beleza",
+      "title": "Beleza",
+      "description": "Explore itens de beleza selecionados para sua rotina de autocuidado.",
+      "url": "https://meli.la/2JgmRBc",
+      "action": "Explorar beleza"
+    },
+    {
+      "id": "vitaminas-suplementos",
+      "title": "Vitaminas e suplementos",
+      "description": "Veja a seleção de vitaminas e suplementos no Mercado Livre.",
+      "url": "https://meli.la/1aogtQ6",
+      "action": "Explorar seleção"
+    }
+  ]
+}

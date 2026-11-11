@@ -1,0 +1,25 @@
+.shop-topbar{position:relative}
+.shop-nav{margin-left:auto;margin-right:32px}
+.shop-main{max-width:1120px;min-height:calc(100vh - 170px);margin:0 auto;padding:90px 28px 72px}
+.shop-hero{max-width:700px;margin:0 auto 54px;text-align:center}
+.shop-hero .section-kicker{justify-content:center}
+.shop-kicker-mark{color:var(--sage);font-size:16px}
+.shop-hero h1{font-size:clamp(48px,7vw,76px);margin:24px 0 16px}
+.shop-hero h1 em{color:var(--sage)}
+.shop-hero>p{max-width:570px;margin:0 auto;color:#77736b;font-size:15px;line-height:1.8}
+.shop-categories{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.shop-card{position:relative;display:flex;min-height:310px;overflow:hidden;align-items:flex-end;padding:34px;background:#e8e4d9}
+.shop-card-2{background:#e1e7dc}
+.shop-card-number{position:absolute;top:26px;left:30px;font-size:10px;letter-spacing:1.5px;color:#77736b}
+.shop-card-copy{position:relative;z-index:1;max-width:340px}
+.shop-card h2{font-size:32px;line-height:1.12;margin:0 0 12px;letter-spacing:-.8px}
+.shop-card p{font-size:12px;line-height:1.7;color:#66635b;margin-bottom:22px}
+.shop-card .button{gap:24px;min-height:46px}
+.shop-card-orb{position:absolute;right:-30px;top:20px;font-size:230px;line-height:1;color:#ffffff59;transform:rotate(-12deg)}
+.shop-disclosure{max-width:760px;margin:24px auto 0;text-align:center;color:#77736b;font-size:10px;line-height:1.7}
+.shop-footer{grid-template-columns:1fr auto 1fr}
+.shop-footer>small{grid-column:auto;grid-row:auto}
+.shop-back-link{font-size:11px;color:#69665f}
+.shop-back-link:hover{color:var(--sage)}
+@media(max-width:720px){.shop-main{padding:66px 6% 54px}.shop-hero{margin-bottom:36px}.shop-hero h1{font-size:clamp(44px,12vw,62px)}.shop-categories{grid-template-columns:1fr;gap:12px}.shop-card{min-height:260px;padding:26px}.shop-card-number{top:20px;left:24px}.shop-card h2{font-size:28px}.shop-card-orb{font-size:190px}.shop-footer{grid-template-columns:1fr 1fr}.shop-back-link{grid-column:1/-1;grid-row:2}.shop-footer>small{grid-column:2;grid-row:1}}
+@media(max-width:420px){.shop-topbar .button{display:none}.shop-nav{margin:0}.shop-nav a{font-size:11px}.shop-main{padding-top:54px}.shop-card{min-height:245px}}
