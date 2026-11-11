@@ -6,16 +6,16 @@
     "eyebrow": "CORPO · MENTE · CONEXÃO",
     "title": "Uma comunidade",
     "emphasis": "para florescer.",
-    "description": "Movimento, autocuidado e boas conexões no seu ritmo. Conheça o piloto digital da EleVa e experimente 7 dias grátis.",
-    "primaryAction": "Quero testar por 7 dias",
+    "description": "Movimento, autocuidado e boas conexões para mulheres que querem se elevar juntas.",
+    "primaryAction": "Quero fazer parte",
     "secondaryAction": "Conheça a comunidade",
     "photoCaption": "Mulheres que se elevam juntas.",
     "photoSubcaption": "Rio de Janeiro · RJ",
     "photoAlt": "Grupo de mulheres da EleVa reunido em um encontro ao ar livre",
     "image": "images/eleva-hero-comunidade.jpg",
     "photoNote": "CORPO · MENTE · CONEXÃO",
-    "proofTitle": "Piloto de assinatura",
-    "proofSubtitle": "7 dias gratuitos para começar"
+    "proofTitle": "Corpo · mente · conexão",
+    "proofSubtitle": "Mulheres que se elevam juntas"
   },
   "ticker": [
     "CORPO",
@@ -24,10 +24,31 @@
     "MULHERES QUE SE ELEVAM JUNTAS"
   ],
   "about": {
-    "eyebrow": "O PILOTO ELEVA",
-    "title": "Seu espaço para",
-    "emphasis": "cuidar de você.",
-    "description": "Uma comunidade para mulheres que querem se movimentar, fazer amizades e encontrar inspiração para uma rotina mais leve. O piloto reúne conteúdos práticos e benefícios em um só lugar.",
+    "eyebrow": "SOBRE O ELEVA",
+    "title": "Uma história que nasceu",
+    "emphasis": "do movimento.",
+    "description": "O Eleva nasceu da rotina de corrida ao ar livre de Andrezza Bonfim. Sem planejamento, apenas com autenticidade, ela foi inspirando outras mulheres pelo movimento, pela leveza e pelos hábitos saudáveis que construía dia a dia.\n\nCom o tempo, algumas mulheres começaram a pedir para correr junto com ela. Esse simples pedido acendeu um desejo maior: criar um espaço de conexão, acolhimento e evolução, onde o autocuidado se transforma em experiência coletiva.\n\nE assim, o sonho cresceu em parceria. A nutricionista Nathália Pinna se juntou ao projeto, fortalecendo o propósito do Eleva com ciência, cuidado e olhar humano.",
+    "highlights": [
+      "Eleva",
+      "Andrezza Bonfim",
+      "criar um espaço de conexão, acolhimento e evolução, onde o autocuidado se transforma em experiência coletiva.",
+      "Nathália Pinna",
+      "Eleva com ciência, cuidado e olhar humano."
+    ],
+    "quote": "Nada grandioso se constrói sozinha.",
+    "people": [
+      {"role":"Idealizadora","name":"Andrezza Bonfim"},
+      {"role":"Nutricionista","name":"Nathália Pinna"}
+    ],
+    "purposeTitle": "Movimento com intenção",
+    "purposeEyebrow": "PROPÓSITO",
+    "purposeQuote": "O Eleva existe para que cada mulher descubra o que é capaz quando não está sozinha.",
+    "pillars": [
+      {"title":"Corpo","description":"Movimento ao ar livre, respeitando o ritmo individual e celebrando cada conquista."},
+      {"title":"Mente","description":"Presença, leveza e evolução sem pressão. Cada uma no seu tempo e processo."},
+      {"title":"Conexão","description":"Pertencimento real, amizades genuínas e uma comunidade que acolhe e inspira."}
+    ],
+    "valuesList": ["Acolhimento", "Autenticidade", "Evolução", "Liberdade", "Presença"],
     "values": [
       {
         "title": "Nutricional",
@@ -44,17 +65,17 @@
     ]
   },
   "community": {
-    "eyebrow": "EXPERIMENTE A ELEVA",
-    "title": "Sete dias para",
+    "eyebrow": "FAÇA PARTE DO ELEVA",
+    "title": "Um espaço para",
     "emphasis": "se elevar juntas.",
-    "description": "Conheça os conteúdos e benefícios do piloto sem custo por 7 dias. Depois, escolha com calma como quer continuar.",
-    "meetingFrequency": "Acesso inicial gratuito por 7 dias",
-    "promise": "Sem pressão. Movimento com leveza, no seu ritmo.",
-    "action": "Começar meu teste grátis",
+    "description": "Movimento, acolhimento e conexões reais entre mulheres.",
+    "meetingFrequency": "Conexão e acolhimento",
+    "promise": "Amizades reais que continuam entre uma edição e outra.",
+    "action": "Faça parte do Eleva",
     "meetingNumber": "7",
-    "meetingDescription": "dias gratuitos no piloto",
-    "friendshipStat": "3",
-    "friendshipDescription": "planos mensais em estruturação"
+    "meetingDescription": "movimento no seu ritmo",
+    "friendshipStat": "∞",
+    "friendshipDescription": "conexões que continuam"
   },
   "quote": {
     "text": "Mais do que correr,",
@@ -67,26 +88,45 @@
     "copyright": "© 2026 EleVa · Mulheres que se elevam juntas"
   },
   "navigation": {
-    "about": "O piloto",
-    "experiences": "Como funciona",
-    "features": "Conteúdos",
-    "memberAction": "Instagram",
-    "joinAction": "Testar grátis",
+    "about": "Sobre o Eleva",
+    "experiences": "Experiências",
+    "features": "Parcerias",
+    "memberAction": "Depoimentos",
+    "joinAction": "Faça parte do Eleva",
     "menuOpen": "Abrir menu",
     "menuClose": "Fechar menu",
-    "subscriptionAction": "Assinatura"
+    "subscriptionAction": "Parcerias",
+    "partnerAction": "Seja um parceiro",
+    "testimonialsUrl": "https://www.instagram.com/stories/highlights/17901518763563915/"
   },
   "experienceSection": {
-    "eyebrow": "UMA COMUNIDADE, MUITOS JEITOS",
-    "title": "Cuidado que cabe",
-    "emphasis": "na sua rotina.",
+    "eyebrow": "EXPERIÊNCIAS ELEVA",
+    "title": "Cada edição,",
+    "emphasis": "um ritual completo.",
     "action": "Quero conhecer"
   },
   "featureSection": {
-    "eyebrow": "CONTEÚDO PARA SUA ROTINA",
-    "title": "Quatro formas",
-    "emphasis": "de se cuidar.",
-    "description": "Explore o que já faz parte da proposta do piloto EleVa. Conteúdos e ofertas são publicados à medida que forem confirmados.",
+    "eyebrow": "PARCERIAS & PROFISSIONAIS",
+    "title": "Um ecossistema",
+    "emphasis": "de bem-estar.",
+    "description": "O Eleva está aberto a parcerias, colaborações e apoios que compartilhem o compromisso com saúde, movimento e conexão feminina genuína.",
+    "partnershipIntro": "Profissionais e marcas que compartilham o mesmo propósito.",
+    "opportunitiesEyebrow": "OPORTUNIDADES PARA MARCAS E INVESTIDORES",
+    "opportunitiesTitle": "Oportunidades para marcas",
+    "opportunities": [
+      {"title":"Ativações de marca","description":"Presença no evento e contato direto com o público."},
+      {"title":"Criação de conteúdo","description":"Fotos e vídeos em locais icônicos do Rio, com estética editorial."},
+      {"title":"Posicionamento orgânico","description":"Associação autêntica com saúde, movimento e comunidade feminina."},
+      {"title":"Comunidade em crescimento","description":"Participantes que retornam e compartilham a experiência."},
+      {"title":"Experiências exclusivas","description":"Co-criação de experiências, kits, café da manhã e conexão."},
+      {"title":"Visibilidade contínua","description":"Presença no Instagram, no grupo de WhatsApp e nos materiais do evento."}
+    ],
+    "partnerCategories": [
+      {"title":"Lifestyle & wellness","items":["Terapeutas", "Psicólogos", "Coaches"]},
+      {"title":"Moda & esporte","items":["Marcas de moda esportiva", "Acessórios wellness"]},
+      {"title":"Gastronomia","items":["Cafés parceiros", "Produtos saudáveis"]},
+      {"title":"Ativação de marca","items":["Patrocinadores", "Marcas premium", "Investidores"]}
+    ],
     "filters": [
       {
         "id": "all",
@@ -133,31 +173,5 @@
     ]
   },
   "whatsappNumber": "5521997043280",
-  "subscriptionSection": {
-    "eyebrow": "ASSINATURA ELEVA",
-    "title": "Comece pelo",
-    "emphasis": "piloto gratuito.",
-    "description": "O acesso inicial dura 7 dias e não tem custo. Os três planos mensais estão em estruturação; valores e benefícios serão apresentados quando estiverem definidos.",
-    "trialLabel": "7 DIAS GRÁTIS",
-    "trialTitle": "Experimente o piloto",
-    "trialDescription": "Conheça os conteúdos e benefícios disponíveis na comunidade EleVa.",
-    "trialAction": "Quero participar do piloto",
-    "plans": [
-      {
-        "name": "Plano mensal 01",
-        "status": "EM DEFINIÇÃO",
-        "description": "Nome, benefícios e valor serão divulgados em breve."
-      },
-      {
-        "name": "Plano mensal 02",
-        "status": "EM DEFINIÇÃO",
-        "description": "Nome, benefícios e valor serão divulgados em breve."
-      },
-      {
-        "name": "Plano mensal 03",
-        "status": "EM DEFINIÇÃO",
-        "description": "Nome, benefícios e valor serão divulgados em breve."
-      }
-    ]
-  }
+  "partnerSection": {"action": "Seja um parceiro"}
 }

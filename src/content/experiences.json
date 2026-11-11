@@ -1,27 +1,32 @@
 [
   {
+    "id": "conexao-e-acolhimento",
+    "title": "Conexão feminina",
+    "description": "Uma comunidade que continua entre as edições, com amizades reais construídas no movimento e na conexão genuína.",
+    "tag": "CONEXÃO GENUÍNA",
+    "image": "images/eleva-encontro.jpg",
+    "imageAlt": "Grupo de mulheres da EleVa reunido em um encontro ao ar livre"
+  },
+  {
     "id": "corrida-ao-ar-livre",
     "title": "Corrida ao ar livre",
-    "description": "Percursos cariocas para todos os ritmos, em um ambiente acolhedor.",
+    "description": "Percursos em locais icônicos do Rio, como Lagoa Rodrigo de Freitas, parques e orla, com ritmos variados e ambiente acolhedor.",
     "tag": "MOVIMENTO AO AR LIVRE",
-    "image": "images/eleva-movimento.jpg",
-    "imageAlt": "Tênis de corrida na areia da praia, com o mar ao fundo",
-    "imagePosition": "center 72%"
+    "image": "images/eleva-corrida-ao-ar-livre.jpeg",
+    "imageAlt": "Mulher se alongando ao ar livre com as montanhas do Rio ao fundo",
+    "imagePosition": "center 50%"
   },
   {
     "id": "cafe-da-manha-social",
-    "title": "Café da manhã social",
-    "description": "Alimentação saudável e boas conversas depois do movimento.",
+    "title": "Café da manhã",
+    "description": "Depois da corrida: alimentação saudável, boas conversas e a leveza de quem fez algo bom por si mesma.",
     "tag": "DEPOIS DA CORRIDA",
-    "image": "images/eleva-cafe-da-carol.jpg",
-    "imageAlt": "Fachada do Café da Carol, espaço de encontro da comunidade"
-  },
-  {
-    "id": "networking-feminino",
-    "title": "Networking feminino",
-    "description": "Amizades reais que continuam entre uma edição e outra.",
-    "tag": "CONEXÃO GENUÍNA",
-    "image": "images/eleva-encontro.jpg",
-    "imageAlt": "Mulheres da comunidade EleVa reunidas antes de uma atividade"
+    "image": "images/eleva-cafe-mesa.jpeg",
+    "imageAlt": "Mesa do Café da Carol com arranjo e cardápio",
+    "photos": [
+      {"src":"images/eleva-cafe-mesa.jpeg","alt":"Mesa do Café da Carol com arranjo e cardápio"},
+      {"src":"images/eleva-cafe-frutas-granola.jpeg","alt":"Prato de frutas com granola"},
+      {"src":"images/eleva-cafe-bistro-casa-da-gloria.jpeg","alt":"Placa do Bistrô da Casa da Glória"}
+    ]
   }
 ]
