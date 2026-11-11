@@ -21,7 +21,12 @@
     "title": "Café da manhã",
     "description": "Depois da corrida: alimentação saudável, boas conversas e a leveza de quem fez algo bom por si mesma.",
     "tag": "DEPOIS DA CORRIDA",
-    "image": "images/eleva-cafe-da-carol.jpg",
-    "imageAlt": "Café da manhã compartilhado pelas participantes depois da corrida"
+    "image": "images/eleva-cafe-mesa.jpeg",
+    "imageAlt": "Mesa do Café da Carol com arranjo e cardápio",
+    "photos": [
+      {"src":"images/eleva-cafe-mesa.jpeg","alt":"Mesa do Café da Carol com arranjo e cardápio"},
+      {"src":"images/eleva-cafe-frutas-granola.jpeg","alt":"Prato de frutas com granola"},
+      {"src":"images/eleva-cafe-bistro-casa-da-gloria.jpeg","alt":"Placa do Bistrô da Casa da Glória"}
+    ]
   }
 ]

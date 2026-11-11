@@ -33,7 +33,9 @@ function renderHighlightedText(text:string, highlights:string[]) {
   return text.split(pattern).map(part=>highlights.includes(part)?`<strong>${esc(part)}</strong>`:esc(part)).join('')
 }
 function renderExperience(item: (typeof experienceContent)[number]) {
-  return `<article class="experience-card"><div class="experience-image" data-image="${esc(item.image)}" data-image-position="${esc(item.imagePosition ?? 'center')}" role="img" aria-label="${esc(item.imageAlt)}"><span class="image-tag">${esc(item.tag)}</span></div><div class="experience-info"><div><h3>${esc(item.title)}</h3><p>${esc(item.description)}</p></div><a href="${whatsappHref}" target="_blank" rel="noreferrer" aria-label="${esc(site.experienceSection.action)}: ${esc(item.title)}">${icon('arrow')}</a></div></article>`
+  const photos=(item as typeof item & {photos?:{src:string;alt:string}[]}).photos ?? [{src:item.image,alt:item.imageAlt}]
+  const galleryClass=photos.length>1?' experience-image-gallery':''
+  return `<article class="experience-card"><div class="experience-image${galleryClass}" role="group" aria-label="${esc(item.title)}"><span class="image-tag">${esc(item.tag)}</span>${photos.map(photo=>`<div class="experience-photo" data-image="${esc(photo.src)}" data-image-position="${esc(item.imagePosition ?? 'center')}" role="img" aria-label="${esc(photo.alt)}"></div>`).join('')}</div><div class="experience-info"><div><h3>${esc(item.title)}</h3><p>${esc(item.description)}</p></div><a href="${whatsappHref}" target="_blank" rel="noreferrer" aria-label="${esc(site.experienceSection.action)}: ${esc(item.title)}">${icon('arrow')}</a></div></article>`
 }
 function renderEntry(feature: Feature, entry: FeatureEntry): string {
   if (feature.id === 'home-workouts') {
@@ -92,7 +94,7 @@ document.querySelectorAll<HTMLElement | SVGElement>('#app, #app *').forEach((ele
 
 const heroPhoto = document.querySelector<HTMLElement>('.hero-photo')
 if (heroPhoto) heroPhoto.style.backgroundImage = `url("${baseUrl}${heroPhoto.dataset.heroImage}")`
-document.querySelectorAll<HTMLElement>('.experience-image[data-image]').forEach(el=>{el.style.backgroundImage=`linear-gradient(180deg,#14140b33,transparent 30%,transparent 75%,#15150e28),url("${el.dataset.image}")`;el.style.backgroundPosition=`center,${el.dataset.imagePosition ?? 'center'}`})
+document.querySelectorAll<HTMLElement>('.experience-photo[data-image]').forEach(el=>{el.style.backgroundImage=`url("${baseUrl}${el.dataset.image}")`;el.style.backgroundPosition=el.dataset.imagePosition ?? 'center'})
 
 const toast = document.querySelector<HTMLElement>('.toast')!
 function announce(message:string) { toast.textContent=message;toast.classList.add('visible');setTimeout(()=>toast.classList.remove('visible'),3500) }
