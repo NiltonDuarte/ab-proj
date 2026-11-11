@@ -2,21 +2,33 @@
   "title": "Loja EleVa",
   "eyebrow": "CURADORIA ELEVA",
   "description": "Uma seleção de beleza, vitaminas e suplementos para você explorar no Mercado Livre.",
-  "disclosure": "Os links levam a páginas externas do Mercado Livre. Confira informações, preços e condições diretamente na loja.",
+  "disclosure": "Os links levam a páginas externas do Mercado Livre e podem gerar comissão para a EleVa. Confira informações, preços e disponibilidade diretamente na loja. Suplementos não substituem orientação profissional.",
   "categories": [
     {
       "id": "beleza",
       "title": "Beleza",
       "description": "Explore itens de beleza selecionados para sua rotina de autocuidado.",
       "url": "https://meli.la/2JgmRBc",
-      "action": "Explorar beleza"
+      "action": "Ver lista completa",
+      "products": [
+        { "id": "match-oleosidade", "name": "O Boticário Match Oleosidade Controlada Shampoo 300ml", "image": "https://http2.mlstatic.com/D_Q_NP_2X_885160-MLB111642680173_052026-AB.webp", "url": "https://www.mercadolivre.com.br/o-boticario-match-oleosidade-controlada-shampoo-300ml/p/MLB2073541204?matt_event_ts=1794434958907&matt_d2id=eb01dc69-f634-48b7-a83c-67826ad8f136&matt_tracing_id=daa8f5ab-6169-476b-918e-18a71d2403c0#polycard_client=social-profile-middleend&source=lists&type=product&tracking_id=6b2a5dc4-7fff-4dd4-884c-c883ded8e53d&wid=MLB3767211746&sid=storefronts" },
+        { "id": "kit-siage", "name": "Kit Siàge Acelera O Crescimento", "image": "https://http2.mlstatic.com/D_Q_NP_2X_743492-MLA99843133771_112025-AB.webp", "url": "https://www.mercadolivre.com.br/kit-sige-acelera-o-crescimento-shampoo-250ml-mascara-capilar-250g-condicionador-200ml/p/MLB28136801?matt_event_ts=1794434958907&matt_d2id=eb01dc69-f634-48b7-a83c-67826ad8f136&matt_tracing_id=daa8f5ab-6169-476b-918e-18a71d2403c0#polycard_client=social-profile-middleend&source=lists&type=product&tracking_id=6b2a5dc4-7fff-4dd4-884c-c883ded8e53d&wid=MLB4176299181&sid=storefronts" },
+        { "id": "kit-cetaphil", "name": "Kit Cetaphil Creme Hidratante + Loção de Limpeza", "image": "https://http2.mlstatic.com/D_Q_NP_2X_862900-MLA106083940121_012026-AB.webp", "url": "https://www.mercadolivre.com.br/kit-cetaphil-creme-hidratante-453g-locao-de-limpeza-100ml-hidratacao-48h-corporal-e-facial-para-pele-sensivel-normal-a-seca/p/MLB65038519?matt_event_ts=1794434958907&matt_d2id=eb01dc69-f634-48b7-a83c-67826ad8f136&matt_tracing_id=daa8f5ab-6169-476b-918e-18a71d2403c0#polycard_client=social-profile-middleend&source=lists&type=product&tracking_id=6b2a5dc4-7fff-4dd4-884c-c883ded8e53d&wid=MLB5486301571&sid=storefronts" },
+        { "id": "kit-principia", "name": "Kit Principia para rotina de skincare com FPS 60", "image": "https://http2.mlstatic.com/D_Q_NP_2X_761257-MLA108807654621_032026-AB.webp", "url": "https://www.mercadolivre.com.br/kit-principia-para-rotina-de-skincare-pele-sensivel-com-protetor-solar-fps-60/p/MLB53618239?matt_event_ts=1794434958907&matt_d2id=eb01dc69-f634-48b7-a83c-67826ad8f136&matt_tracing_id=daa8f5ab-6169-476b-918e-18a71d2403c0#polycard_client=social-profile-middleend&source=lists&type=product&tracking_id=6b2a5dc4-7fff-4dd4-884c-c883ded8e53d&wid=MLB5554213538&sid=storefronts" }
+      ]
     },
     {
       "id": "vitaminas-suplementos",
       "title": "Vitaminas e suplementos",
       "description": "Veja a seleção de vitaminas e suplementos no Mercado Livre.",
       "url": "https://meli.la/1aogtQ6",
-      "action": "Explorar seleção"
+      "action": "Ver lista completa",
+      "products": [
+        { "id": "omega-3", "name": "Omegafor Plus 120 Cápsulas Ômega 3 Vitafor", "image": "https://http2.mlstatic.com/D_Q_NP_2X_889348-MLA99533932720_122025-AB.webp", "url": "https://www.mercadolivre.com.br/omegafor-plus-120-capsulas-mega-3-vitafor/p/MLB21961479?matt_event_ts=1794434960083&matt_d2id=97d415db-e2d7-47a9-ad2d-320c6b189aaa&matt_tracing_id=d3874c49-3290-4158-a879-d9dbcd48bd83#polycard_client=social-profile-middleend&source=lists&type=product&tracking_id=b5a3b0fe-894e-4ab8-8c34-7d70a9222e76&wid=MLB5069226468&sid=storefronts" },
+        { "id": "curcuma-vitafor", "name": "Cúrcuma Vitafor em cápsulas", "image": "https://http2.mlstatic.com/D_Q_NP_2X_618257-MLA116370187574_092026-AB.webp", "url": "https://www.mercadolivre.com.br/curcuma-vitafor-em-capsula-sem-sabor-x-45g-de-60-un/p/MLB42974299?matt_event_ts=1794434960083&matt_d2id=97d415db-e2d7-47a9-ad2d-320c6b189aaa&matt_tracing_id=d3874c49-3290-4158-a879-d9dbcd48bd83#polycard_client=social-profile-middleend&source=lists&type=product&tracking_id=b5a3b0fe-894e-4ab8-8c34-7d70a9222e76&wid=MLB3905344439&sid=storefronts" },
+        { "id": "vitamina-d3", "name": "Vitamina D3 Vitafor, 60 cápsulas", "image": "https://http2.mlstatic.com/D_Q_NP_2X_877106-MLA118634757646_102026-AB.webp", "url": "https://www.mercadolivre.com.br/vitamina-d3-60-capsulas-vitafor/p/MLB37257285?matt_event_ts=1794434960083&matt_d2id=97d415db-e2d7-47a9-ad2d-320c6b189aaa&matt_tracing_id=d3874c49-3290-4158-a879-d9dbcd48bd83#polycard_client=social-profile-middleend&source=lists&type=product&tracking_id=b5a3b0fe-894e-4ab8-8c34-7d70a9222e76&wid=MLB3904633649&sid=storefronts" },
+        { "id": "hyaluronic-hair", "name": "Hyaluronic Hair Vitafor, 60 cápsulas", "image": "https://http2.mlstatic.com/D_Q_NP_2X_646709-MLA99993927113_112025-AB.webp", "url": "https://www.mercadolivre.com.br/hyaluronic-hair-60-capsulas-vitafor/p/MLB37958054?matt_event_ts=1794434960083&matt_d2id=97d415db-e2d7-47a9-ad2d-320c6b189aaa&matt_tracing_id=d3874c49-3290-4158-a879-d9dbcd48bd83#polycard_client=social-profile-middleend&source=lists&type=product&tracking_id=b5a3b0fe-894e-4ab8-8c34-7d70a9222e76&wid=MLB5120860758&sid=storefronts" }
+      ]
     }
   ]
 }

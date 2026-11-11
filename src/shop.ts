@@ -19,7 +19,7 @@ document.querySelector<HTMLDivElement>('#shop-app')!.innerHTML = `
       <p>${esc(shop.description)}</p>
     </section>
     <section class="shop-categories" aria-label="Categorias da loja">
-      ${shop.categories.map((category, index) => `<article class="shop-card shop-card-${index + 1}"><span class="shop-card-number">0${index + 1}</span><div class="shop-card-copy"><h2>${esc(category.title)}</h2><p>${esc(category.description)}</p><a class="button button-dark" href="${esc(category.url)}" target="_blank" rel="noopener noreferrer">${esc(category.action)} <span aria-hidden="true">↗</span></a></div><div class="shop-card-orb" aria-hidden="true">✳</div></article>`).join('')}
+      ${shop.categories.map(category => `<section class="shop-category"><div class="shop-category-heading"><div><span class="shop-card-number">CURADORIA ELEVA</span><h2>${esc(category.title)}</h2><p>${esc(category.description)}</p></div><a class="shop-list-link" href="${esc(category.url)}" target="_blank" rel="noopener noreferrer">${esc(category.action)} ↗</a></div><div class="shop-products">${category.products.map(product => `<article class="shop-product"><a class="shop-product-image" href="${esc(product.url)}" target="_blank" rel="noopener noreferrer" aria-label="Ver ${esc(product.name)} no Mercado Livre"><img src="${esc(product.image)}" alt="${esc(product.name)}" loading="lazy"></a><div class="shop-product-info"><h3>${esc(product.name)}</h3><a href="${esc(product.url)}" target="_blank" rel="noopener noreferrer">Ver no Mercado Livre <span aria-hidden="true">↗</span></a></div></article>`).join('')}</div></section>`).join('')}
     </section>
     <p class="shop-disclosure">${esc(shop.disclosure)}</p>
   </main>
