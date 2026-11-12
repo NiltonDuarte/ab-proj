@@ -95,3 +95,17 @@
 @media(max-width:720px){.shop-main[data-view="compact"] .shop-products{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:480px){.shop-main[data-view="compact"] .shop-products{grid-template-columns:repeat(2,minmax(0,1fr))}.shop-main[data-view="compact"] .shop-product-info{padding:10px}.shop-main[data-view="compact"] .shop-product-info h3{font-size:11px}}
 @media(max-width:360px){.shop-view-switcher{gap:2px}.shop-view-option{padding:7px 6px;font-size:9px}.shop-main[data-view="list"] .shop-product-image{flex-basis:92px}.shop-main[data-view="list"] .shop-product-info{padding:10px}}
+
+.shop-category-nav{display:none}
+.shop-main[data-view="categories"] .shop-category-nav{position:sticky;top:12px;z-index:4;display:flex;justify-content:center;gap:8px;width:max-content;max-width:100%;margin:-10px auto 28px;padding:8px;border:1px solid var(--line);border-radius:999px;background:#fffdf8ed;box-shadow:0 5px 18px #24231b0c;backdrop-filter:blur(12px)}
+.shop-category-nav a{padding:9px 16px;border-radius:999px;color:var(--ink);font-size:11px;font-weight:600;white-space:nowrap;transition:background .2s,color .2s}
+.shop-category-nav a:hover,.shop-category-nav a:focus-visible{background:var(--sage);color:white;outline:none}
+.shop-category{scroll-margin-top:88px}
+.shop-show-all{display:none}
+.shop-main[data-view="light"] .shop-product:nth-child(n+7){display:none}
+.shop-main[data-view="light"] .shop-category.expanded .shop-product:nth-child(n+7){display:flex}
+.shop-main[data-view="light"] .shop-show-all{display:block;margin:18px auto 0;padding:11px 18px;border:1px solid var(--line);border-radius:999px;background:transparent;color:var(--ink);font:inherit;font-size:11px;cursor:pointer;transition:background .2s,border-color .2s,color .2s}
+.shop-main[data-view="light"] .shop-show-all:hover{background:var(--sage);border-color:var(--sage);color:white}
+.shop-main[data-view="light"] .shop-show-all:focus-visible{outline:2px solid var(--sage);outline-offset:3px}
+@media(max-width:720px){.shop-main[data-view="categories"] .shop-category-nav{top:8px;gap:4px;margin:-6px auto 22px;padding:5px}.shop-category-nav a{padding:8px 12px;font-size:10px}}
+@media(max-width:360px){.shop-view-switcher{max-width:100%;border-radius:18px}.shop-view-option{padding-left:5px;padding-right:5px}}
