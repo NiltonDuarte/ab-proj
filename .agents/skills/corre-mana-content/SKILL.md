@@ -1,9 +1,9 @@
 ---
 name: corre-mana-content
-description: Manage the Corre, Mana static site's JSON content, feature lists, and content CLI without hardcoding page copy in the TypeScript UI.
+description: Manage Eleva's static-site JSON content, feature lists, and content CLI without hardcoding page copy in the TypeScript UI.
 ---
 
-# Corre, Mana content
+# Eleva content
 
 Use this skill when adding or changing copy, experiences, running routes, breakfast recommendations, home workouts, challenges, nutrition content, partners, or coupons in this project.
 
