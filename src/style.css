@@ -491,3 +491,7 @@
   .community-photos figure{flex:0 0 72%;scroll-snap-align:start}
   .community-photos+.community-testimonials{margin-top:28px}
 }
+
+/* Link de depoimentos centralizado, sem título */
+.community-testimonials{justify-content:center;border-top:0;padding-top:0}
+@media(max-width:640px){.community-testimonials{align-items:center}}
