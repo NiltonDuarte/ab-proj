@@ -455,3 +455,12 @@
   .about-benefits{margin-bottom:36px}
   .about-highlight{margin-bottom:24px}
 }
+
+/* Revisão de layout: ritmo vertical e leitura */
+@media(min-width:641px){
+  main>.section{padding-top:72px;padding-bottom:72px}
+  .join-section{padding-top:80px;padding-bottom:80px}
+  .about-benefits{margin-bottom:72px}
+}
+.about-story-copy{max-width:700px}
+.playlists{background:transparent}
