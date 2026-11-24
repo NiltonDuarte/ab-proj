@@ -464,3 +464,17 @@
 }
 .about-story-copy{max-width:700px}
 .playlists{background:transparent}
+
+/* Menu com todas as seções */
+@media(min-width:641px){.desktop-nav{gap:clamp(14px,1.9vw,30px)}}
+@media(max-width:640px){.nav-open .desktop-nav{max-height:min(440px,calc(100vh - 64px));overflow-y:auto}}
+@media(min-width:641px) and (max-width:1180px){
+  .topbar{gap:16px}
+  .top-actions{margin-left:auto}
+  .menu-toggle{display:grid;place-items:center;width:44px;height:44px;padding:0;cursor:pointer}
+  .menu-toggle .icon{width:21px;height:21px}
+  .desktop-nav{position:absolute;left:0;right:0;top:100%;background:var(--cream);padding:0 max(calc((100vw - 1120px)/2),5vw);display:flex;flex-direction:column;gap:0;font-size:14px;max-height:0;overflow:hidden;transition:max-height .25s,padding .25s;border-bottom:1px solid transparent}
+  .nav-open .desktop-nav{max-height:440px;padding-top:8px;padding-bottom:8px;border-color:var(--line)}
+  .desktop-nav a{display:flex;align-items:center;min-height:44px;padding:12px 0;border-bottom:1px solid var(--line)}
+  .desktop-nav a:last-child{border-bottom:0}
+}

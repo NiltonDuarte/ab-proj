@@ -1,6 +1,6 @@
 {
-  "brand": "EleVa",
-  "shortBrand": "EleVa",
+  "brand": "ELEVA",
+  "shortBrand": "ELEVA",
   "instagram": "@_e.l.e.v.a",
   "hero": {
     "eyebrow": "CORPO · MENTE · CONEXÃO",
@@ -11,7 +11,7 @@
     "secondaryAction": "Conheça a comunidade",
     "photoCaption": "Mulheres que se elevam juntas.",
     "photoSubcaption": "Rio de Janeiro · RJ",
-    "photoAlt": "Grupo de mulheres da EleVa reunido em um encontro ao ar livre",
+    "photoAlt": "Grupo de mulheres da ELEVA reunido em um encontro ao ar livre",
     "image": "images/eleva-hero-comunidade.jpg",
     "photoNote": "CORPO · MENTE · CONEXÃO"
   },
@@ -39,7 +39,7 @@
     ],
     "purposeTitle": "Movimento com intenção",
     "purposeEyebrow": "PROPÓSITO",
-    "purposeQuote": "O Eleva existe para que cada mulher descubra o que é capaz quando não está sozinha.",
+    "purposeQuote": "O ELEVA existe para que cada mulher descubra o que é capaz quando não está sozinha.",
     "pillars": [
       {"title":"Corpo","description":"Movimento ao ar livre, atividades e hábitos que respeitam seu ritmo e celebram cada conquista."},
       {"title":"Mente","description":"Autocuidado, leveza e conteúdos para cultivar o bem-estar no dia a dia."},
@@ -93,14 +93,16 @@
   },
   "footer": {
     "message": "Corpo em movimento. Mente em equilíbrio. Mulheres em conexão.",
-    "copyright": "© 2026 EleVa · Mulheres que se elevam juntas"
+    "copyright": "© 2026 ELEVA · Mulheres que se elevam juntas"
   },
   "navigation": {
-    "about": "Sobre o Eleva",
+    "about": "Sobre o ELEVA",
     "experiences": "Experiências",
+    "community": "Comunidade",
+    "playlists": "Playlists",
     "features": "Parcerias",
     "memberAction": "Depoimentos",
-    "joinAction": "Faça parte do Eleva",
+    "joinAction": "Faça parte do ELEVA",
     "menuOpen": "Abrir menu",
     "menuClose": "Fechar menu",
     "subscriptionAction": "Parcerias",
