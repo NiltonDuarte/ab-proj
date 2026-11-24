@@ -1,0 +1,11 @@
+{
+  "eyebrow": "TRILHA SONORA",
+  "title": "Playlists do EleVa",
+  "description": "Uma trilha para acompanhar seus momentos de movimento, pausa e conexão.",
+  "playlists": [
+    { "id": "7l017qJqE0efxq2BjhMdiH", "title": "Playlist do Eleva no Spotify" },
+    { "id": "3FYeg3UhgqqD6z2PlQuc8A", "title": "Playlist 2 do Eleva no Spotify" },
+    { "id": "3QIpKXWC6Nr79qy8souDCw", "title": "Playlist 3 do Eleva no Spotify" },
+    { "id": "0DgRMzNv1ZEAfOr3FfEfG8", "title": "Playlist 4 do Eleva no Spotify" }
+  ]
+}
