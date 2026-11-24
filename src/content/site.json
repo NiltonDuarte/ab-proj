@@ -113,7 +113,9 @@
     "action": "Quero conhecer"
   },
   "featureSection": {
-    "title": "PARCERIAS QUE COMPARTILHAM PROPÓSITOS",
+    "eyebrow": "PARCERIAS & PROFISSIONAIS",
+    "title": "Parcerias que compartilham",
+    "emphasis": "propósitos.",
     "description": [
       "Acreditamos na força das conexões entre pessoas, profissionais e marcas que compartilham o compromisso com saúde, movimento e bem-estar feminino.",
       "Se você acredita nesse propósito, queremos conhecer sua proposta."
