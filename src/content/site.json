@@ -104,7 +104,6 @@
     "menuOpen": "Abrir menu",
     "menuClose": "Fechar menu",
     "subscriptionAction": "Parcerias",
-    "partnerAction": "Seja um parceiro",
     "testimonialsUrl": "https://www.instagram.com/stories/highlights/17901518763563915/"
   },
   "experienceSection": {
@@ -114,16 +113,13 @@
     "action": "Quero conhecer"
   },
   "featureSection": {
-    "eyebrow": "PARCERIAS & PROFISSIONAIS",
-    "title": "Um ecossistema",
-    "emphasis": "de bem-estar.",
-    "partnershipIntro": "Profissionais e marcas que compartilham o mesmo propósito.",
-    "partnerCategories": [
-      {"title":"Lifestyle & wellness","items":["Terapeutas", "Psicólogos", "Coaches"]},
-      {"title":"Moda & esporte","items":["Marcas de moda esportiva", "Acessórios wellness"]},
-      {"title":"Gastronomia","items":["Cafés parceiros", "Produtos saudáveis"]},
-      {"title":"Ativação de marca","items":["Patrocinadores", "Marcas premium", "Investidores"]}
+    "title": "PARCERIAS QUE COMPARTILHAM PROPÓSITOS",
+    "description": [
+      "Acreditamos na força das conexões entre pessoas, profissionais e marcas que compartilham o compromisso com saúde, movimento e bem-estar feminino.",
+      "Se você acredita nesse propósito, queremos conhecer sua proposta."
     ],
+    "action": "SEJA UM PARCEIRO",
+    "message": "Olá! Quero ser um parceiro do ELEVA.",
     "filters": [
       {
         "id": "all",
@@ -169,6 +165,5 @@
       }
     ]
   },
-  "whatsappNumber": "5521997043280",
-  "partnerSection": {"action": "Seja um parceiro"}
+  "whatsappNumber": "5521997043280"
 }
