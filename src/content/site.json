@@ -69,6 +69,11 @@
       "Cada mulher chega com uma história, um ritmo e uma maneira diferente de viver o movimento.",
       "É isso que torna nossa comunidade especial: a possibilidade de trocar experiências, encontrar companhia, conhecer pessoas e descobrir que muitas jornadas ficam mais leves quando compartilhadas."
     ],
+    "photos": [
+      {"src":"images/eleva-comunidade-refeicao.jpg","alt":"Selfie de participantes do ELEVA reunidas em uma refeição no restaurante"},
+      {"src":"images/eleva-comunidade-alongamento.jpg","alt":"Participante do ELEVA fazendo alongamento de quadríceps em pé, em área externa"},
+      {"src":"images/eleva-comunidade-bracos-elevados.jpg","alt":"Participante do ELEVA alongando com os braços elevados, em área externa"}
+    ],
     "testimonialsTitle": "Depoimentos de participantes",
     "testimonialsAction": "Ver depoimentos"
   },
