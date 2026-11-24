@@ -436,3 +436,11 @@
 .partners-copy p{font-size:16px;line-height:1.8;color:#625f57;margin:0 0 14px}
 .partners-copy{margin-bottom:30px}
 @media(max-width:640px){.benefits.partners{padding-top:56px;padding-bottom:56px}.partners-copy p{font-size:15px}.partners-inner .button{width:100%;min-height:50px;justify-content:center;font-size:13px}}
+
+/* Rodapé em destaque */
+.footer{background:var(--ink);color:#d9d4c7}
+.footer-brand{color:var(--cream)}
+.footer .instagram{color:var(--cream)}
+.footer .instagram:hover{color:var(--gold)}
+.footer>small{color:#b9b3a4}
+.footer-brand .brand-mark img{filter:brightness(1.4) saturate(1.1)}
