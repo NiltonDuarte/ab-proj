@@ -385,3 +385,6 @@
 .spotify-frame{overflow:hidden;border-radius:14px;background:#151515;box-shadow:0 16px 40px #29271f1a}
 .spotify-frame iframe{display:block;border:0;min-height:352px}
 @media(max-width:640px){.playlists-heading{margin-bottom:18px}.playlist-picker{display:grid;grid-template-columns:1fr 1fr;gap:8px}.playlist-option{min-height:48px;padding:9px 10px;font-size:11px}.spotify-frame iframe{height:352px}}
+
+.hero-lead + .hero-lead{margin-top:-10px}
+.hero-ctas .button-gold{justify-content:center}
