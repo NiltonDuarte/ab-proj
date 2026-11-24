@@ -117,18 +117,7 @@
     "eyebrow": "PARCERIAS & PROFISSIONAIS",
     "title": "Um ecossistema",
     "emphasis": "de bem-estar.",
-    "description": "O Eleva está aberto a parcerias, colaborações e apoios que compartilhem o compromisso com saúde, movimento e conexão feminina genuína.",
     "partnershipIntro": "Profissionais e marcas que compartilham o mesmo propósito.",
-    "opportunitiesEyebrow": "OPORTUNIDADES PARA MARCAS E INVESTIDORES",
-    "opportunitiesTitle": "Oportunidades para marcas",
-    "opportunities": [
-      {"title":"Ativações de marca","description":"Presença no evento e contato direto com o público."},
-      {"title":"Criação de conteúdo","description":"Fotos e vídeos em locais icônicos do Rio, com estética editorial."},
-      {"title":"Posicionamento orgânico","description":"Associação autêntica com saúde, movimento e comunidade feminina."},
-      {"title":"Comunidade em crescimento","description":"Participantes que retornam e compartilham a experiência."},
-      {"title":"Experiências exclusivas","description":"Co-criação de experiências, kits, café da manhã e conexão."},
-      {"title":"Visibilidade contínua","description":"Presença no Instagram, no grupo de WhatsApp e nos materiais do evento."}
-    ],
     "partnerCategories": [
       {"title":"Lifestyle & wellness","items":["Terapeutas", "Psicólogos", "Coaches"]},
       {"title":"Moda & esporte","items":["Marcas de moda esportiva", "Acessórios wellness"]},
