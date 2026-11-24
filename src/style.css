@@ -446,3 +446,12 @@
 .footer .instagram:hover{color:var(--gold)}
 .footer>small{color:#b9b3a4}
 .footer-brand .brand-mark img{filter:brightness(1.4) saturate(1.1)}
+
+/* Espaçamento entre seções no celular */
+@media(max-width:640px){
+  main>.section{padding-top:36px;padding-bottom:36px}
+  .join-section{padding-top:48px;padding-bottom:48px}
+  .closing-quote{padding-top:40px;padding-bottom:40px}
+  .about-benefits{margin-bottom:36px}
+  .about-highlight{margin-bottom:24px}
+}
