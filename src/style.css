@@ -391,3 +391,9 @@
 
 .experience-cta{display:flex;justify-content:center;margin-top:44px}
 @media(max-width:640px){.experience-cta{margin-top:16px}}
+
+.about-highlight{margin-bottom:40px}
+.about-benefits{list-style:none;margin:0 0 96px;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,3vw,40px)}
+.about-benefits li{position:relative;padding-top:18px;border-top:1px solid var(--line);font-size:15px;line-height:1.65;color:#625f57}
+.about-benefits li:before{content:'';position:absolute;top:-4px;left:0;width:7px;height:7px;border-radius:50%;background:var(--sage)}
+@media(max-width:720px){.about-highlight{margin-bottom:28px}.about-benefits{grid-template-columns:1fr;gap:18px;margin-bottom:66px}.about-benefits li{font-size:14px;padding-top:14px}}
