@@ -7,7 +7,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const contentDir = path.join(root, 'src', 'content')
 const featureDir = path.join(contentDir, 'features')
 const definitions = {
-  experiences: { path: path.join(contentDir, 'experiences.json'), required: ['id','title','description','tag','image','imageAlt'] },
+  experiences: { path: path.join(contentDir, 'experiences.json'), required: ['id','title','description','image','imageAlt'] },
   routes: { path: path.join(featureDir, 'routes.json'), required: ['id','name','city','type','distance','notes'] },
   books: { path: path.join(featureDir, 'books.json'), required: ['id','name','author','theme','notes'] },
   breakfasts: { path: path.join(featureDir, 'breakfasts.json'), required: ['id','name','city','category','priceRange','notes'] },
