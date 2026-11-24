@@ -62,17 +62,28 @@
     ]
   },
   "community": {
-    "eyebrow": "FAÇA PARTE DO ELEVA",
-    "title": "Um espaço para",
-    "emphasis": "se elevar juntas.",
-    "description": "Movimento, acolhimento e conexões reais entre mulheres.",
-    "meetingFrequency": "Conexão e acolhimento",
-    "promise": "Amizades reais que continuam entre uma edição e outra.",
-    "action": "Faça parte do Eleva",
-    "meetingNumber": "7",
-    "meetingDescription": "movimento no seu ritmo",
-    "friendshipStat": "∞",
-    "friendshipDescription": "conexões que continuam"
+    "eyebrow": "NOSSA COMUNIDADE",
+    "title": "Mais do que compartilhar atividades,",
+    "emphasis": "compartilhar histórias.",
+    "description": [
+      "Cada mulher chega com uma história, um ritmo e uma maneira diferente de viver o movimento.",
+      "É isso que torna nossa comunidade especial: a possibilidade de trocar experiências, encontrar companhia, conhecer pessoas e descobrir que muitas jornadas ficam mais leves quando compartilhadas."
+    ],
+    "testimonialsTitle": "Depoimentos de participantes",
+    "testimonialsAction": "Ver depoimentos"
+  },
+  "join": {
+    "eyebrow": "FAÇA PARTE",
+    "subtitle": "SEU ESPAÇO TAMBÉM É AQUI",
+    "title": "Vamos nos",
+    "emphasis": "elevar juntas?",
+    "description": [
+      "Você não precisa correr, ter experiência ou seguir uma rotina perfeita para fazer parte do ELEVA.",
+      "Basta ter vontade de cuidar um pouco mais de você, experimentar novas possibilidades e compartilhar essa jornada com outras mulheres."
+    ],
+    "note": "A comunidade ELEVA é gratuita e está aberta a novas histórias.",
+    "action": "QUERO FAZER PARTE DO ELEVA",
+    "message": "Olá! Quero fazer parte do ELEVA."
   },
   "quote": {
     "text": "Mais do que correr,",

@@ -397,3 +397,34 @@
 .about-benefits li{position:relative;padding-top:18px;border-top:1px solid var(--line);font-size:15px;line-height:1.65;color:#625f57}
 .about-benefits li:before{content:'';position:absolute;top:-4px;left:0;width:7px;height:7px;border-radius:50%;background:var(--sage)}
 @media(max-width:720px){.about-highlight{margin-bottom:28px}.about-benefits{grid-template-columns:1fr;gap:18px;margin-bottom:66px}.about-benefits li{font-size:14px;padding-top:14px}}
+
+/* Nossa comunidade */
+.community{padding-top:96px;padding-bottom:96px}
+.community .section-kicker{color:var(--olive)}
+.community-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:clamp(32px,6vw,84px);align-items:start;margin-top:25px}
+.community-grid h2{font-size:clamp(34px,4vw,48px);line-height:1.12;margin:0;text-wrap:balance}
+.community-copy p{font-size:15px;line-height:1.85;color:#625f57;margin:0 0 18px}
+.community-copy p:last-child{margin-bottom:0}
+.community-testimonials{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;margin-top:56px;padding:26px 0 0;border-top:1px solid var(--line)}
+.community-testimonials h3{font-family:var(--serif);font-size:clamp(22px,2.4vw,28px);font-weight:500;margin:0}
+.community-testimonials .underlined-link .icon{width:15px}
+
+/* Faça parte */
+.join-section{background:var(--olive);color:#fff;padding:96px 6vw;text-align:center}
+.join-inner{max-width:720px;margin:auto}
+.join-section .section-kicker{justify-content:center}
+.join-subtitle{font-size:11px;font-weight:700;letter-spacing:2px;color:var(--gold);margin:22px 0 14px}
+.join-section h2{font-size:clamp(38px,5vw,60px);line-height:1.08;margin:0 0 26px}
+.join-section h2 em{color:var(--gold)}
+.join-copy p{font-size:16px;line-height:1.8;color:#eceade;margin:0 0 16px}
+.join-copy .join-note{font-weight:600;color:#fff;margin:24px 0 30px}
+.join-section .button-gold{max-width:100%;text-align:center}
+@media(max-width:900px){.community-grid{grid-template-columns:1fr;gap:20px}}
+@media(max-width:640px){
+  .community{padding-top:56px;padding-bottom:56px}
+  .community-copy p{font-size:14px}
+  .community-testimonials{margin-top:34px;flex-direction:column;align-items:flex-start;gap:6px}
+  .join-section{padding:60px 7%}
+  .join-copy p{font-size:15px}
+  .join-section .button-gold{width:100%;min-height:50px;font-size:13px;padding:14px 16px}
+}
