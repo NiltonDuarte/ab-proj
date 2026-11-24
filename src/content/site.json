@@ -1,21 +1,19 @@
 {
-  "brand": "EleVa",
-  "shortBrand": "EleVa",
+  "brand": "ELEVA",
+  "shortBrand": "ELEVA",
   "instagram": "@_e.l.e.v.a",
   "hero": {
     "eyebrow": "CORPO · MENTE · CONEXÃO",
     "title": "Uma comunidade",
     "emphasis": "para florescer.",
-    "description": "Movimento, autocuidado e boas conexões para mulheres que querem se elevar juntas.",
+    "description": "Um espaço para mulheres que querem movimentar o corpo, cuidar da mente, desenvolver hábitos saudáveis e descobrir novas experiências.\n\nAqui, cada mulher tem seu ritmo. E todas têm espaço.",
     "primaryAction": "Quero fazer parte",
     "secondaryAction": "Conheça a comunidade",
     "photoCaption": "Mulheres que se elevam juntas.",
     "photoSubcaption": "Rio de Janeiro · RJ",
-    "photoAlt": "Grupo de mulheres da EleVa reunido em um encontro ao ar livre",
+    "photoAlt": "Grupo de mulheres da ELEVA reunido em um encontro ao ar livre",
     "image": "images/eleva-hero-comunidade.jpg",
-    "photoNote": "CORPO · MENTE · CONEXÃO",
-    "proofTitle": "Corpo · mente · conexão",
-    "proofSubtitle": "Mulheres que se elevam juntas"
+    "photoNote": "CORPO · MENTE · CONEXÃO"
   },
   "ticker": [
     "CORPO",
@@ -27,26 +25,25 @@
     "eyebrow": "SOBRE O ELEVA",
     "title": "Uma história que nasceu",
     "emphasis": "do movimento.",
-    "description": "O Eleva nasceu da rotina de corrida ao ar livre de Andrezza Bonfim. Sem planejamento, apenas com autenticidade, ela foi inspirando outras mulheres pelo movimento, pela leveza e pelos hábitos saudáveis que construía dia a dia.\n\nCom o tempo, algumas mulheres começaram a pedir para correr junto com ela. Esse simples pedido acendeu um desejo maior: criar um espaço de conexão, acolhimento e evolução, onde o autocuidado se transforma em experiência coletiva.\n\nE assim, o sonho cresceu em parceria. A nutricionista Nathália Pinna se juntou ao projeto, fortalecendo o propósito do Eleva com ciência, cuidado e olhar humano.",
-    "highlights": [
-      "Eleva",
-      "Andrezza Bonfim",
-      "criar um espaço de conexão, acolhimento e evolução, onde o autocuidado se transforma em experiência coletiva.",
-      "Nathália Pinna",
-      "Eleva com ciência, cuidado e olhar humano."
+    "description": "O ELEVA nasceu de uma forma simples: de uma mulher que gostava de correr e de outras mulheres que começaram a perguntar: posso correr com você?\n\nO que começou como um convite para compartilhar alguns quilômetros foi se transformando em algo muito maior.\n\nVieram as conversas, as risadas depois dos treinos, os cafés sem pressa e as amizades que ultrapassaram os momentos de corrida.\n\nPercebemos que o movimento poderia ser apenas o começo de algo maior: um espaço onde mulheres pudessem cuidar de si, descobrir novas experiências e compartilhar momentos.\n\nAssim nasceu o ELEVA: uma comunidade construída por mulheres que acreditam que cuidar de si também pode ser mais leve quando estamos juntas.",
+    "highlights": [],
+    "benefits": [
+      "Ideias e inspirações para incluir momentos de cuidado e atenção a si mesma na rotina",
+      "Benefícios e experiências",
+      "Vantagens com parceiros, descobertas e oportunidades para experimentar coisas novas"
     ],
-    "quote": "Nada grandioso se constrói sozinha.",
+    "quote": "Tudo começou com um convite. E se transformou em muitas histórias.",
     "people": [
       {"role":"Idealizadora","name":"Andrezza Bonfim"},
       {"role":"Nutricionista","name":"Nathália Pinna"}
     ],
     "purposeTitle": "Movimento com intenção",
     "purposeEyebrow": "PROPÓSITO",
-    "purposeQuote": "O Eleva existe para que cada mulher descubra o que é capaz quando não está sozinha.",
+    "purposeQuote": "O ELEVA existe para que cada mulher descubra o que é capaz quando não está sozinha.",
     "pillars": [
-      {"title":"Corpo","description":"Movimento ao ar livre, respeitando o ritmo individual e celebrando cada conquista."},
-      {"title":"Mente","description":"Presença, leveza e evolução sem pressão. Cada uma no seu tempo e processo."},
-      {"title":"Conexão","description":"Pertencimento real, amizades genuínas e uma comunidade que acolhe e inspira."}
+      {"title":"Corpo","description":"Movimento ao ar livre, atividades e hábitos que respeitam seu ritmo e celebram cada conquista."},
+      {"title":"Mente","description":"Autocuidado, leveza e conteúdos para cultivar o bem-estar no dia a dia."},
+      {"title":"Conexão","description":"Novas amizades, experiências compartilhadas e uma comunidade para caminhar junto."}
     ],
     "valuesList": ["Acolhimento", "Autenticidade", "Evolução", "Liberdade", "Presença"],
     "values": [
@@ -65,17 +62,32 @@
     ]
   },
   "community": {
-    "eyebrow": "FAÇA PARTE DO ELEVA",
-    "title": "Um espaço para",
-    "emphasis": "se elevar juntas.",
-    "description": "Movimento, acolhimento e conexões reais entre mulheres.",
-    "meetingFrequency": "Conexão e acolhimento",
-    "promise": "Amizades reais que continuam entre uma edição e outra.",
-    "action": "Faça parte do Eleva",
-    "meetingNumber": "7",
-    "meetingDescription": "movimento no seu ritmo",
-    "friendshipStat": "∞",
-    "friendshipDescription": "conexões que continuam"
+    "eyebrow": "NOSSA COMUNIDADE",
+    "title": "Mais do que compartilhar atividades,",
+    "emphasis": "compartilhar histórias.",
+    "description": [
+      "Cada mulher chega com uma história, um ritmo e uma maneira diferente de viver o movimento.",
+      "É isso que torna nossa comunidade especial: a possibilidade de trocar experiências, encontrar companhia, conhecer pessoas e descobrir que muitas jornadas ficam mais leves quando compartilhadas."
+    ],
+    "photos": [
+      {"src":"images/eleva-comunidade-refeicao.jpg","alt":"Selfie de participantes do ELEVA reunidas em uma refeição no restaurante"},
+      {"src":"images/eleva-comunidade-alongamento.jpg","alt":"Participante do ELEVA fazendo alongamento de quadríceps em pé, em área externa"},
+      {"src":"images/eleva-comunidade-bracos-elevados.jpg","alt":"Participante do ELEVA alongando com os braços elevados, em área externa"}
+    ],
+    "testimonialsAction": "Ver depoimentos"
+  },
+  "join": {
+    "eyebrow": "FAÇA PARTE",
+    "subtitle": "SEU ESPAÇO TAMBÉM É AQUI",
+    "title": "Vamos nos",
+    "emphasis": "elevar juntas?",
+    "description": [
+      "Você não precisa correr, ter experiência ou seguir uma rotina perfeita para fazer parte do ELEVA.",
+      "Basta ter vontade de cuidar um pouco mais de você, experimentar novas possibilidades e compartilhar essa jornada com outras mulheres."
+    ],
+    "note": "A comunidade ELEVA é gratuita e está aberta a novas histórias.",
+    "action": "QUERO FAZER PARTE DO ELEVA",
+    "message": "Olá! Quero fazer parte do ELEVA."
   },
   "quote": {
     "text": "Mais do que correr,",
@@ -85,18 +97,19 @@
   },
   "footer": {
     "message": "Corpo em movimento. Mente em equilíbrio. Mulheres em conexão.",
-    "copyright": "© 2026 EleVa · Mulheres que se elevam juntas"
+    "copyright": "© 2026 ELEVA · Mulheres que se elevam juntas"
   },
   "navigation": {
-    "about": "Sobre o Eleva",
+    "about": "Sobre o ELEVA",
     "experiences": "Experiências",
+    "community": "Comunidade",
+    "playlists": "Playlists",
     "features": "Parcerias",
     "memberAction": "Depoimentos",
-    "joinAction": "Faça parte do Eleva",
+    "joinAction": "Faça parte do ELEVA",
     "menuOpen": "Abrir menu",
     "menuClose": "Fechar menu",
     "subscriptionAction": "Parcerias",
-    "partnerAction": "Seja um parceiro",
     "testimonialsUrl": "https://www.instagram.com/stories/highlights/17901518763563915/"
   },
   "experienceSection": {
@@ -107,26 +120,14 @@
   },
   "featureSection": {
     "eyebrow": "PARCERIAS & PROFISSIONAIS",
-    "title": "Um ecossistema",
-    "emphasis": "de bem-estar.",
-    "description": "O Eleva está aberto a parcerias, colaborações e apoios que compartilhem o compromisso com saúde, movimento e conexão feminina genuína.",
-    "partnershipIntro": "Profissionais e marcas que compartilham o mesmo propósito.",
-    "opportunitiesEyebrow": "OPORTUNIDADES PARA MARCAS E INVESTIDORES",
-    "opportunitiesTitle": "Oportunidades para marcas",
-    "opportunities": [
-      {"title":"Ativações de marca","description":"Presença no evento e contato direto com o público."},
-      {"title":"Criação de conteúdo","description":"Fotos e vídeos em locais icônicos do Rio, com estética editorial."},
-      {"title":"Posicionamento orgânico","description":"Associação autêntica com saúde, movimento e comunidade feminina."},
-      {"title":"Comunidade em crescimento","description":"Participantes que retornam e compartilham a experiência."},
-      {"title":"Experiências exclusivas","description":"Co-criação de experiências, kits, café da manhã e conexão."},
-      {"title":"Visibilidade contínua","description":"Presença no Instagram, no grupo de WhatsApp e nos materiais do evento."}
+    "title": "Parcerias que compartilham",
+    "emphasis": "propósitos.",
+    "description": [
+      "Acreditamos na força das conexões entre pessoas, profissionais e marcas que compartilham o compromisso com saúde, movimento e bem-estar feminino.",
+      "Se você acredita nesse propósito, queremos conhecer sua proposta."
     ],
-    "partnerCategories": [
-      {"title":"Lifestyle & wellness","items":["Terapeutas", "Psicólogos", "Coaches"]},
-      {"title":"Moda & esporte","items":["Marcas de moda esportiva", "Acessórios wellness"]},
-      {"title":"Gastronomia","items":["Cafés parceiros", "Produtos saudáveis"]},
-      {"title":"Ativação de marca","items":["Patrocinadores", "Marcas premium", "Investidores"]}
-    ],
+    "action": "SEJA UM PARCEIRO",
+    "message": "Olá! Quero ser um parceiro do ELEVA.",
     "filters": [
       {
         "id": "all",
@@ -172,6 +173,5 @@
       }
     ]
   },
-  "whatsappNumber": "5521997043280",
-  "partnerSection": {"action": "Seja um parceiro"}
+  "whatsappNumber": "5521997043280"
 }

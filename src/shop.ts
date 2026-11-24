@@ -8,9 +8,9 @@ const esc = (value: string): string => value.replace(/[&<>"']/g, char => ({ '&':
 
 document.querySelector<HTMLDivElement>('#shop-app')!.innerHTML = `
   <header class="topbar shop-topbar">
-    <a class="brand" href="${homeUrl}" aria-label="EleVa, página inicial"><span class="brand-mark"><img src="${homeUrl}images/eleva-lotus-mark.png" alt="" aria-hidden="true"></span><span>EleVa</span></a>
+    <a class="brand" href="${homeUrl}" aria-label="ELEVA, página inicial"><span class="brand-mark"><img src="${homeUrl}images/eleva-lotus-mark.png" alt="" aria-hidden="true"></span><span>ELEVA</span></a>
     <nav class="desktop-nav shop-nav" aria-label="Navegação principal"><a href="${homeUrl}">Página inicial</a><a href="${homeUrl}#parcerias">Parcerias</a></nav>
-    <a class="button button-dark button-small" href="${homeUrl}">Voltar ao EleVa</a>
+    <a class="button button-dark button-small" href="${homeUrl}">Voltar ao ELEVA</a>
   </header>
   <main class="shop-main" data-view="grid">
     <section class="shop-hero">
@@ -25,7 +25,7 @@ document.querySelector<HTMLDivElement>('#shop-app')!.innerHTML = `
     </section>
     <p class="shop-disclosure">${esc(shop.disclosure)}</p>
   </main>
-  <footer class="footer shop-footer"><a class="brand footer-brand" href="${homeUrl}"><span class="brand-mark"><img src="${homeUrl}images/eleva-lotus-mark.png" alt="" aria-hidden="true"></span><span>EleVa</span></a><a class="shop-back-link" href="${homeUrl}">Voltar para a página principal</a><small>© ${new Date().getFullYear()} EleVa</small></footer>
+  <footer class="footer shop-footer"><a class="brand footer-brand" href="${homeUrl}"><span class="brand-mark"><img src="${homeUrl}images/eleva-lotus-mark.png" alt="" aria-hidden="true"></span><span>ELEVA</span></a><a class="shop-back-link" href="${homeUrl}">Voltar para a página principal</a><small>© ${new Date().getFullYear()} ELEVA</small></footer>
 `
 
 const shopMain = document.querySelector<HTMLElement>('.shop-main')!
